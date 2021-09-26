@@ -13,7 +13,7 @@ Tasks:
 	- same approach I used for RoR2
 - [ ] update Modular Eyes
 	- should also check if tools have been updated
-- [ ] edit the difficulty names to be less offensive :P
+- [X] edit the difficulty names to be less offensive :P
 - [ ] check time ratio (default for W3EE should be 1:15) and tweak if necessary
 	- the code to edit is mentioned on the W3EE page, Lazarus uses a 1:4 ratio
 	- one hour should be about a day's work?
@@ -22,8 +22,13 @@ Tasks:
 menu edits
 - [ ] clean up menu strings
   - potentially edit tutorial messages to better explain mechanics
+  - clarify what "Witcher 2 Save Sim" means
+  - remove menu options for new game besides "Fresh Start"
 - [ ] add custom presets for easy setup
   - could remove existing defaults in favor of my own
 - [ ] clean up default user settings
   - e.g. the DLC popups are cleared by default, tutorials might be as well
+  - enable DLC Gwent Cards
 - [ ] create a comprehensive guide explaining behavior of all included mods
+  - made up terms to explain:
+    - Anarchy Tax (when guards knock you out)

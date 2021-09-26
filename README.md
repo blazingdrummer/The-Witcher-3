@@ -23,7 +23,7 @@ menu edits
 - [ ] clean up menu strings
   - potentially edit tutorial messages to better explain mechanics
   - clarify what "Witcher 2 Save Sim" means
-  - remove menu options for new game besides "Fresh Start"
+  - [X] remove menu options for new game besides "Fresh Start"
 - [ ] add custom presets for easy setup
   - could remove existing defaults in favor of my own
 - [ ] clean up default user settings

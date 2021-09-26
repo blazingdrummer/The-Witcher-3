@@ -1,3 +1,4 @@
+#excluding everything not included by mods or myself
 /_CommonRedist
 /ARTBOOK
 /ARTWORK
@@ -8,12 +9,15 @@
 /SOUNDTRACK
 /WALLPAPERS
 
+#leaving in the files needed for the mod limit change
 /bin/x64/*.dll
 /bin/x64/*.exe
 /bin/x64/*.crashinfo
 
+#ASI loader
 !/bin/x64/dinput8.dll
 
+#more junk
 /bin/ddi
 /bin/initialdata
 /bin/screenshots
@@ -43,11 +47,13 @@
 /bin/config/r4game/user_config_matrix/pc/postprocess.xml
 /bin/config/r4game/user_config_matrix/pc/rendering.xml
 
+#filtering out stuff that didn't come from Besserweiser
 /content/*
-!/content/content0/
+!/content/content0
 /content/content0/*
 !/content/content0/bundles
 
+#everything except Besserweiser bundle
 /content/content0/bundles/blob.bundle
 /content/content0/bundles/buffers.bundle
 /content/content0/bundles/movies.bundle
@@ -55,6 +61,11 @@
 /content/content0/bundles/r4items.bundle
 /content/content0/bundles/startup.bundle
 /content/content0/bundles/xml.bundle
+
+#patch1/en.w3strings is allowing edits to the new game menu
+!/content/patch1
+/content/patch1/*
+!/content/patch1/en.w3strings
 
 /DLC/*
 !/DLC/dlcW3EE

@@ -46,16 +46,18 @@
 /content/*
 !/content/content0/
 /content/content0/*
-!content/content0/bundles
+!/content/content0/bundles
 
-content/content0/bundles/blob.bundle
-content/content0/bundles/buffers.bundle
-content/content0/bundles/movies.bundle
-content/content0/bundles/r4gui.bundle
-content/content0/bundles/r4items.bundle
-content/content0/bundles/startup.bundle
-content/content0/bundles/xml.bundle
+/content/content0/bundles/blob.bundle
+/content/content0/bundles/buffers.bundle
+/content/content0/bundles/movies.bundle
+/content/content0/bundles/r4gui.bundle
+/content/content0/bundles/r4items.bundle
+/content/content0/bundles/startup.bundle
+/content/content0/bundles/xml.bundle
 
 /DLC/*
 !/DLC/dlcW3EE
 !/DLC/dlcmodulareyes
+
+/User Settings/gamesaves

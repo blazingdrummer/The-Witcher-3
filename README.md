@@ -9,17 +9,21 @@ Also includes the custom version of Thoughtful Roach that includes HUD messages 
 Note that very little of the final product is currently stored outside of the game files, thus my concerns for making this backup before I make any major changes.
 
 Tasks:
-[ ] test if TW3 will allow the Documents folder (user settings) to be a symlink, and store the files in the repo instead
+- [X] test if TW3 will allow the Documents folder (user settings) to be a symlink, and store the files in the repo instead
 	- same approach I used for RoR2
-[ ] edit the difficulty names to be less offensive :P
-[ ] check time ratio (default should be 1:15) and tweak if necessary
+- [ ] update Modular Eyes
+	- should also check if tools have been updated
+- [ ] edit the difficulty names to be less offensive :P
+- [ ] check time ratio (default for W3EE should be 1:15) and tweak if necessary
+	- the code to edit is mentioned on the W3EE page, Lazarus uses a 1:4 ratio
 	- one hour should be about a day's work?
 	- tweak meditation acceleration accordingly
+
 menu edits
-	[ ] clean up menu strings
-		- potentially edit tutorial messages to better explain mechanics
-	[ ] add custom presets for easy setup
-		- could remove existing defaults in favor of my own
-	[ ] clean up default user settings
-		- e.g. the DLC popups are cleared by default, tutorials might be as well
-[ ] create a comprehensive guide explaining behavior of all included mods
+- [ ] clean up menu strings
+  - potentially edit tutorial messages to better explain mechanics
+- [ ] add custom presets for easy setup
+  - could remove existing defaults in favor of my own
+- [ ] clean up default user settings
+  - e.g. the DLC popups are cleared by default, tutorials might be as well
+- [ ] create a comprehensive guide explaining behavior of all included mods

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="swords_campfire" displayName="Mods.swords_campfire.swords_campfire_main">
+		<VisibleVars>
+			<Var id="swords_campfire_use_key"	displayName="swords_campfire_use_key" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="swords_campfire_exclude_xbow"	displayName="swords_campfire_exclude_xbow" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="swords_campfire_exclude_scabs" displayName="swords_campfire_exclude_scabs" displayType="TOGGLE"	tags="customNames;customDisplayName"/>
+			<Var id="swords_campfire_disable_mod" 	displayName="swords_campfire_disable" displayType="TOGGLE"			tags="customNames;customDisplayName"/>
+		<!--	<Var id="swords_campfire_leave_weapons" 	displayName="swords_campfire_leave_weapons" displayType="TOGGLE"			tags="customNames;customDisplayName"/> -->
+			<Var id="swords_campfire_leave_stuff" 	displayName="swords_campfire_leave_stuff" displayType="TOGGLE"			tags="customNames;customDisplayName"/>
+			<Var id="swords_campfire_reset_left" 	displayName="swords_campfire_reset_left" displayType="TOGGLE"			tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	<Group id="swords_campfire_swords" displayName="Mods.swords_campfire.swords_campfire_swords">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_front_far">
+					<Entry varId="steel_pos_x_campfire"	     value="0.25"/>
+					<Entry varId="steel_pos_y_campfire" 	     value="1.45"/>
+					<Entry varId="steel_pos_z_campfire" 	     value="0"/>
+					<Entry varId="steel_roll_campfire"	     value="0"/>
+					<Entry varId="steel_pitch_campfire" 	     value="-90"/>
+					<Entry varId="steel_yaw_campfire" 	     value="90"/>
+					
+					<Entry varId="silver_pos_x_campfire"	     value="0.40"/>
+					<Entry varId="silver_pos_y_campfire"      value="1.25"/>
+					<Entry varId="silver_pos_z_campfire"      value="0"/>
+					<Entry varId="silver_roll_campfire"	     value="0"/>
+					<Entry varId="silver_pitch_campfire"      value="-90"/>
+					<Entry varId="silver_yaw_campfire" 	     value="90"/>
+					
+					<Entry varId="preset_campfire_swords" 	     value="0"/>
+				</Preset>
+				<Preset id="1" displayName="campfire_left">
+					<Entry varId="steel_pos_x_campfire"	     value="-0.45"/>
+					<Entry varId="steel_pos_y_campfire" 	     value="0.40"/>
+					<Entry varId="steel_pos_z_campfire" 	     value="0"/>
+					<Entry varId="steel_roll_campfire"	     value="0"/>
+					<Entry varId="steel_pitch_campfire" 	     value="-90"/>
+					<Entry varId="steel_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="silver_pos_x_campfire"	     value="-0.62"/>
+					<Entry varId="silver_pos_y_campfire"      value="0.50"/>
+					<Entry varId="silver_pos_z_campfire"      value="0"/>
+					<Entry varId="silver_roll_campfire"	     value="0"/>
+					<Entry varId="silver_pitch_campfire"      value="-90"/>
+					<Entry varId="silver_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="preset_campfire_swords" 	     value="1"/>
+				</Preset>
+				<Preset id="2" displayName="campfire_right">
+					<Entry varId="steel_pos_x_campfire"	     value="0.42"/>
+					<Entry varId="steel_pos_y_campfire" 	     value="0.40"/>
+					<Entry varId="steel_pos_z_campfire" 	     value="0"/>
+					<Entry varId="steel_roll_campfire"	     value="0"/>
+					<Entry varId="steel_pitch_campfire" 	     value="-90"/>
+					<Entry varId="steel_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="silver_pos_x_campfire"	     value="0.58"/>
+					<Entry varId="silver_pos_y_campfire"      value="0.50"/>
+					<Entry varId="silver_pos_z_campfire"      value="0"/>
+					<Entry varId="silver_roll_campfire"	     value="0"/>
+					<Entry varId="silver_pitch_campfire"      value="-90"/>
+					<Entry varId="silver_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="preset_campfire_swords" 	     value="2"/>
+				</Preset>
+				<Preset id="3" displayName="campfire_front_near">
+					<Entry varId="steel_pos_x_campfire"	     value="0.25"/>
+					<Entry varId="steel_pos_y_campfire" 	     value="0.70"/>
+					<Entry varId="steel_pos_z_campfire" 	     value="0"/>
+					<Entry varId="steel_roll_campfire"	     value="0"/>
+					<Entry varId="steel_pitch_campfire" 	     value="-90"/>
+					<Entry varId="steel_yaw_campfire" 	     value="90"/>
+					
+					<Entry varId="silver_pos_x_campfire"	     value="0.40"/>
+					<Entry varId="silver_pos_y_campfire"      value="0.45"/>
+					<Entry varId="silver_pos_z_campfire"      value="0"/>
+					<Entry varId="silver_roll_campfire"	     value="0"/>
+					<Entry varId="silver_pitch_campfire"      value="-90"/>
+					<Entry varId="silver_yaw_campfire" 	     value="90"/>
+					
+					<Entry varId="preset_campfire_swords" 	     value="3"/>
+				</Preset>
+			</PresetsArray>
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes" 	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="swords_campfire_align" 		displayName="swords_campfire_align" displayType="TOGGLE"			tags="customNames;customDisplayName"/>
+			
+			<Var id="steel_pos_x_campfire" 		displayName="campfire_steel_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_pos_y_campfire" 		displayName="campfire_steel_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_pos_z_campfire" 		displayName="campfire_steel_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_roll_campfire" 		displayName="campfire_steel_roll" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="steel_pitch_campfire" 		displayName="campfire_steel_pitch" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="steel_yaw_campfire" 			displayName="campfire_steel_yaw" 				displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+			<Var id="silver_pos_x_campfire" 		displayName="campfire_silver_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_pos_y_campfire" 		displayName="campfire_silver_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_pos_z_campfire" 		displayName="campfire_silver_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_roll_campfire" 			displayName="campfire_silver_pos_roll" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="silver_pitch_campfire" 		displayName="campfire_silver_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="silver_yaw_campfire" 			displayName="campfire_silver_pos_yaw" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+			<Var id="preset_campfire_swords" 				displayName="preset" 		displayType="SLIDER;0;3;3"		tags="hidden"/>
+		</VisibleVars>
+	</Group>
+	
+	
+	
+	<Group id="swords_campfire_scabbards" displayName="Mods.swords_campfire.swords_campfire_scabbards">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="steel_scab_pos_x_campfire"	     value="0"/>
+					<Entry varId="steel_scab_pos_y_campfire" 	     value="0"/>
+					<Entry varId="steel_scab_pos_z_campfire" 	     value="0"/>
+					<Entry varId="steel_scab_roll_campfire"	     value="0"/>
+					<Entry varId="steel_scab_pitch_campfire" 	     value="0"/>
+					<Entry varId="steel_scab_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="silver_scab_pos_x_campfire"	     value="0"/>
+					<Entry varId="silver_scab_pos_y_campfire"      value="0"/>
+					<Entry varId="silver_scab_pos_z_campfire"      value="0"/>
+					<Entry varId="silver_scab_roll_campfire"	     value="0"/>
+					<Entry varId="silver_scab_pitch_campfire"      value="0"/>
+					<Entry varId="silver_scab_yaw_campfire" 	     value="0"/>
+				</Preset>
+		</PresetsArray>
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_scabs"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			
+			<Var id="steel_scab_pos_z_campfire" 		displayName="campfire_steel_pos_x" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_x_campfire" 		displayName="campfire_steel_pos_y" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_y_campfire" 		displayName="campfire_steel_pos_z" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_roll_campfire" 			displayName="campfire_steel_roll" 			displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pitch_campfire" 		displayName="campfire_steel_pitch" 			displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_yaw_campfire" 			displayName="campfire_steel_yaw" 			displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			
+			<Var id="silver_scab_pos_z_campfire" 		displayName="campfire_silver_pos_x" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_pos_x_campfire" 		displayName="campfire_silver_pos_y" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_pos_y_campfire" 		displayName="campfire_silver_pos_z" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_roll_campfire" 		displayName="campfire_silver_pos_roll" 		displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_pitch_campfire" 		displayName="campfire_silver_pos_pitch" 		displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_yaw_campfire" 			displayName="campfire_silver_pos_yaw" 		displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+	
+	
+	
+	<Group id="swords_campfire_xbow" displayName="Mods.swords_campfire.swords_campfire_xbow">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_left">
+					<Entry varId="xbow_campfire_align"       value="false"/>
+					<Entry varId="xbow_pos_x_campfire"	     value="-0.55"/>
+					<Entry varId="xbow_pos_y_campfire" 	     value="0.30"/>
+					<Entry varId="xbow_pos_z_campfire" 	     value="0"/>
+					<Entry varId="xbow_roll_campfire"	     value="80"/>
+					<Entry varId="xbow_pitch_campfire" 	     value="0"/>
+					<Entry varId="xbow_yaw_campfire" 	     value="105"/>
+					
+					<Entry varId="preset_campfire_xbow" 	     value="0"/>
+				</Preset>
+				<Preset id="1" displayName="campfire_right">
+					<Entry varId="xbow_campfire_align"       value="false"/>
+					<Entry varId="xbow_pos_x_campfire"	     value="0.50"/>
+					<Entry varId="xbow_pos_y_campfire" 	     value="0.30"/>
+					<Entry varId="xbow_pos_z_campfire" 	     value="0"/>
+					<Entry varId="xbow_roll_campfire"	     value="80"/>
+					<Entry varId="xbow_pitch_campfire" 	     value="0"/>
+					<Entry varId="xbow_yaw_campfire" 	     value="75"/>
+					
+					<Entry varId="preset_campfire_xbow" 	     value="1"/>
+				</Preset>
+				<Preset id="2" displayName="campfire_front_far">
+					<Entry varId="xbow_campfire_align"       value="false"/>
+					<Entry varId="xbow_pos_x_campfire"	     value="-0.20"/>
+					<Entry varId="xbow_pos_y_campfire" 	     value="1.15"/>
+					<Entry varId="xbow_pos_z_campfire" 	     value="0"/>
+					<Entry varId="xbow_roll_campfire"	     value="80"/>
+					<Entry varId="xbow_pitch_campfire" 	     value="0"/>
+					<Entry varId="xbow_yaw_campfire" 	     value="35"/>
+					
+					<Entry varId="preset_campfire_xbow" 	     value="2"/>
+				</Preset>
+				<Preset id="3" displayName="campfire_front_near">
+					<Entry varId="xbow_campfire_align"       value="false"/>
+					<Entry varId="xbow_pos_x_campfire"	     value="-0.1"/>
+					<Entry varId="xbow_pos_y_campfire" 	     value="0.60"/>
+					<Entry varId="xbow_pos_z_campfire" 	     value="0"/>
+					<Entry varId="xbow_roll_campfire"	     value="80"/>
+					<Entry varId="xbow_pitch_campfire" 	     value="0"/>
+					<Entry varId="xbow_yaw_campfire" 	     value="20"/>
+					
+					<Entry varId="preset_campfire_xbow" 	     value="3"/>
+				</Preset>
+				<Preset id="4" displayName="campfire_right_corner">
+					<Entry varId="xbow_campfire_align"       value="false"/>
+					<Entry varId="xbow_pos_x_campfire"	     value="0.50"/>
+					<Entry varId="xbow_pos_y_campfire" 	     value="0.90"/>
+					<Entry varId="xbow_pos_z_campfire" 	     value="0"/>
+					<Entry varId="xbow_roll_campfire"	     value="80"/>
+					<Entry varId="xbow_pitch_campfire" 	     value="0"/>
+					<Entry varId="xbow_yaw_campfire" 	     value="75"/>
+					
+					<Entry varId="preset_campfire_xbow" 	     value="4"/>
+				</Preset>
+				<Preset id="5" displayName="campfire_left_corner">
+					<Entry varId="xbow_campfire_align"       value="false"/>
+					<Entry varId="xbow_pos_x_campfire"	     value="-0.55"/>
+					<Entry varId="xbow_pos_y_campfire" 	     value="0.90"/>
+					<Entry varId="xbow_pos_z_campfire" 	     value="0"/>
+					<Entry varId="xbow_roll_campfire"	     value="80"/>
+					<Entry varId="xbow_pitch_campfire" 	     value="0"/>
+					<Entry varId="xbow_yaw_campfire" 	     value="105"/>
+					
+					<Entry varId="preset_campfire_xbow" 	     value="5"/>
+				</Preset>
+		
+		
+			</PresetsArray>
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_xbow"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="xbow_campfire_align" 		displayName="swords_campfire_align" displayType="TOGGLE"			tags="customNames;customDisplayName"/>
+			
+			<Var id="xbow_pos_x_campfire" 			displayName="campfire_xbow_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="xbow_pos_y_campfire" 			displayName="campfire_xbow_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="xbow_pos_z_campfire" 			displayName="campfire_xbow_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="xbow_roll_campfire" 			displayName="campfire_xbow_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="xbow_pitch_campfire" 			displayName="campfire_xbow_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="xbow_yaw_campfire" 			displayName="campfire_xbow_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		
+			<Var id="preset_campfire_xbow" 				displayName="preset" 		displayType="SLIDER;0;5;5"		tags="customNames;customDisplayName"/>	
+		</VisibleVars>
+	</Group>
+	
+	
+	
+	
+	<Group id="swords_campfire_base" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_basemain">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_front_near">
+					<Entry varId="base_pos_x_campfire"	     value="-0.03"/>
+					<Entry varId="base_pos_y_campfire" 	     value="0.85"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="0"/>
+				</Preset>
+				<Preset id="1" displayName="campfire_front_middle">
+					<Entry varId="base_pos_x_campfire"	     value="-0.03"/>
+					<Entry varId="base_pos_y_campfire" 	     value="1.13"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="1"/>
+				</Preset>
+				<Preset id="2" displayName="campfire_front_far">
+					<Entry varId="base_pos_x_campfire"	     value="-0.03"/>
+					<Entry varId="base_pos_y_campfire" 	     value="1.45"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="0"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="2"/>
+				</Preset>
+				<Preset id="3" displayName="campfire_right_corner">
+					<Entry varId="base_pos_x_campfire"	     value="0.54"/>
+					<Entry varId="base_pos_y_campfire" 	     value="1.10"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="-45"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="3"/>
+				</Preset>
+				<Preset id="4" displayName="campfire_left_corner">
+					<Entry varId="base_pos_x_campfire"	     value="-0.65"/>
+					<Entry varId="base_pos_y_campfire" 	     value="1.10"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="45"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="4"/>
+				</Preset>
+				<Preset id="5" displayName="campfire_right">
+					<Entry varId="base_pos_x_campfire"	     value="0.65"/>
+					<Entry varId="base_pos_y_campfire" 	     value="0.80"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="-90"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="5"/>
+				</Preset>
+				<Preset id="6" displayName="campfire_left">
+					<Entry varId="base_pos_x_campfire"	     value="-0.65"/>
+					<Entry varId="base_pos_y_campfire" 	     value="0.70"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="90"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="6"/>
+				</Preset>
+				<Preset id="7" displayName="campfire_near_right">
+					<Entry varId="base_pos_x_campfire"	     value="0.35"/>
+					<Entry varId="base_pos_y_campfire" 	     value="0.75"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="-30"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="7"/>
+				</Preset>
+				<Preset id="8" displayName="campfire_near_left">
+					<Entry varId="base_pos_x_campfire"	     value="-0.5"/>
+					<Entry varId="base_pos_y_campfire" 	     value="0.75"/>
+					<Entry varId="base_pos_z_campfire" 	     value="0.08"/>
+					<Entry varId="base_roll_campfire"	     value="180"/>
+					<Entry varId="base_pitch_campfire" 	     value="0"/>
+					<Entry varId="base_yaw_campfire" 	     value="40"/>
+					
+					<Entry varId="preset_campfire_base" 	     value="8"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_base"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_hide_base"			displayName="campfire_hide_base" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_disable_stuff"		displayName="swords_campfire_disable_stuff" displayType="TOGGLE"		tags="customNames;customDisplayName"/> 
+			 
+			<Var id="base_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="base_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="base_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="base_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="base_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="base_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+			<Var id="preset_campfire_base" 				displayName="preset" 		displayType="SLIDER;0;8;8"		tags="customNames;customDisplayName"/>	
+			<!--
+			<Var id="base_size" 				displayName="campfire_base_size" 			displayType="SLIDER;-2;2;200"		tags="customNames;customDisplayName"/>
+			-->
+		</VisibleVars>
+	</Group> 
+		
+		
+	<Group id="swords_campfire_book" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_book">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="book_pos_x_campfire"	    		 value="0.25"/>
+					<Entry varId="book_pos_y_campfire" 	    		 value="-0.14"/>
+					<Entry varId="book_pos_z_campfire" 	    		 value="0.08"/>
+					<Entry varId="book_roll_campfire"	    		 value="-110"/>
+					<Entry varId="book_pitch_campfire" 	     		 value="0"/>
+					<Entry varId="book_yaw_campfire" 	    		 value="90"/>
+					<Entry varId="campfire_dontattach_book" 	     value="true"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_book"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_book"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_book"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="book_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="book_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="book_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="book_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="book_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="book_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_herb" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_herbss.swords_campfire_herb">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="herb_pos_x_campfire"	     		value="0.23"/>
+					<Entry varId="herb_pos_y_campfire" 	     		value="-0.02"/>
+					<Entry varId="herb_pos_z_campfire" 	     		value="-0.03"/>
+					<Entry varId="herb_roll_campfire"	     		value="0"/>
+					<Entry varId="herb_pitch_campfire" 	     		value="180"/>
+					<Entry varId="herb_yaw_campfire" 	     		value="120"/>
+					<Entry varId="campfire_dontattach_herb" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_herb"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_herb"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_herb"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="herb_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="herb_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="herb_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_herb1" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_herbss.swords_campfire_herb1">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="herb1_pos_x_campfire"	     		value="0.15"/>
+					<Entry varId="herb1_pos_y_campfire" 	     	value="-0.15"/>
+					<Entry varId="herb1_pos_z_campfire" 	     	value="-0.03"/>
+					<Entry varId="herb1_roll_campfire"	     		value="-75"/>
+					<Entry varId="herb1_pitch_campfire" 	     	value="0"/>
+					<Entry varId="herb1_yaw_campfire" 	     		value="90"/>
+					<Entry varId="campfire_dontattach_herb1" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_herb1"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_herb1"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_herb1"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="herb1_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb1_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb1_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb1_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="herb1_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="herb1_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_herb2" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_herbss.swords_campfire_herb2">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="herb2_pos_x_campfire"	     		value="0.30"/>
+					<Entry varId="herb2_pos_y_campfire" 	     	value="0.15"/>
+					<Entry varId="herb2_pos_z_campfire" 	     	value="-0.03"/>
+					<Entry varId="herb2_roll_campfire"	     		value="-43"/>
+					<Entry varId="herb2_pitch_campfire" 	     	value="0"/>
+					<Entry varId="herb2_yaw_campfire" 	     		value="0"/>
+					<Entry varId="campfire_dontattach_herb2" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_herb2"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_herb2"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_herb2"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="herb2_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb2_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb2_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="herb2_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="herb2_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="herb2_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+	</Group> 
+	
+	
+	
+	<Group id="swords_campfire_bolt" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bolt">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="bolt_pos_x_campfire"	     		value="0.06"/>
+					<Entry varId="bolt_pos_y_campfire" 	     		value="-0.15"/>
+					<Entry varId="bolt_pos_z_campfire" 	     		value="0"/>
+					<Entry varId="bolt_roll_campfire"	     		value="0"/>
+					<Entry varId="bolt_pitch_campfire" 	     		value="0"/>
+					<Entry varId="bolt_yaw_campfire" 	     		value="0"/>
+					<Entry varId="campfire_dontattach_bolt" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_bolt"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_bolt"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_bolt"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="bolt_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bolt_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bolt_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bolt_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bolt_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bolt_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+	</Group> 
+	
+	
+	<Group id="swords_campfire_bomb1" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bombs.swords_campfire_bomb1">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="bomb1_pos_x_campfire"	     		value="-0.23"/>
+					<Entry varId="bomb1_pos_y_campfire" 	     	value="0.08"/>
+					<Entry varId="bomb1_pos_z_campfire" 	     	value="0"/>
+					<Entry varId="bomb1_roll_campfire"	     		value="180"/>
+					<Entry varId="bomb1_pitch_campfire" 	     	value="0"/>
+					<Entry varId="bomb1_yaw_campfire" 	     		value="0"/>
+					<Entry varId="campfire_dontattach_bomb1" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_bomb1"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_bomb1"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_bomb1"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="bomb1_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb1_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb1_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb1_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb1_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb1_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	
+	<Group id="swords_campfire_bomb2" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bombs.swords_campfire_bomb2">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="bomb2_pos_x_campfire"	     		value="-0.23"/>
+					<Entry varId="bomb2_pos_y_campfire" 	     	value="-0.08"/>
+					<Entry varId="bomb2_pos_z_campfire" 	     	value="0"/>
+					<Entry varId="bomb2_roll_campfire"	     		value="180"/>
+					<Entry varId="bomb2_pitch_campfire" 	     	value="0"/>
+					<Entry varId="bomb2_yaw_campfire" 	     		value="0"/>
+					<Entry varId="campfire_dontattach_bomb2" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_bomb2"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_bomb2"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_bomb2"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="bomb2_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb2_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb2_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb2_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb2_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb2_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_bomb3" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bombs.swords_campfire_bomb3">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="bomb3_pos_x_campfire"	     		value="-0.1"/>
+					<Entry varId="bomb3_pos_y_campfire" 	     	value="-0.08"/>
+					<Entry varId="bomb3_pos_z_campfire" 	     	value="0"/>
+					<Entry varId="bomb3_roll_campfire"	     		value="180"/>
+					<Entry varId="bomb3_pitch_campfire" 	     	value="0"/>
+					<Entry varId="bomb3_yaw_campfire" 	     		value="0"/>
+					<Entry varId="campfire_dontattach_bomb3" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_bomb3"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_bomb3"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_bomb3"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="bomb3_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb3_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb3_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb3_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb3_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb3_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_bomb4" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bombs.swords_campfire_bomb4">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="bomb4_pos_x_campfire"	    	 	value="-0.1"/>
+					<Entry varId="bomb4_pos_y_campfire" 	     	value="0.08"/>
+					<Entry varId="bomb4_pos_z_campfire" 	    	value="0"/>
+					<Entry varId="bomb4_roll_campfire"	    		value="180"/>
+					<Entry varId="bomb4_pitch_campfire" 	    	value="0"/>
+					<Entry varId="bomb4_yaw_campfire" 	     		value="0"/>
+					<Entry varId="campfire_dontattach_bomb4" 	    value="false"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_bomb4"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_bomb4"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_bomb4"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="bomb4_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb4_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb4_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bomb4_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb4_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bomb4_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_bottle1" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bottles.swords_campfire_bottle1">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="bottle1_pos_x_campfire"	    	 value="0.04"/>
+					<Entry varId="bottle1_pos_y_campfire" 	    	 value="-0.2"/>
+					<Entry varId="bottle1_pos_z_campfire" 	    	 value="-0.03"/>
+					<Entry varId="bottle1_roll_campfire"	    	 value="0"/>
+					<Entry varId="bottle1_pitch_campfire" 	    	 value="180"/>
+					<Entry varId="bottle1_yaw_campfire" 	    	 value="0"/>
+					<Entry varId="campfire_dontattach_bottle1" 	     value="true"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_bottle1"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_bottle1"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_bottle1"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="bottle1_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bottle1_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bottle1_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="bottle1_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bottle1_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="bottle1_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	
+	<Group id="swords_campfire_vial1" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bottles.swords_campfire_vial1">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="vial1_pos_x_campfire"	   	 	value="-0.05"/>
+					<Entry varId="vial1_pos_y_campfire" 	    value="-0.2"/>
+					<Entry varId="vial1_pos_z_campfire" 	    value="-0.03"/>
+					<Entry varId="vial1_roll_campfire"	    	value="180"/>
+					<Entry varId="vial1_pitch_campfire" 	    value="0"/>
+					<Entry varId="vial1_yaw_campfire" 	    	value="0"/>
+					<Entry varId="campfire_dontattach_vial1" 	value="true"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_vial1"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_vial1"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_vial1"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="vial1_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial1_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial1_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial1_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial1_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial1_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	
+	<Group id="swords_campfire_vial2" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bottles.swords_campfire_vial2">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="vial2_pos_x_campfire"	     	value="-0.12"/>
+					<Entry varId="vial2_pos_y_campfire" 	    value="-0.2"/>
+					<Entry varId="vial2_pos_z_campfire" 	    value="-0.03"/>
+					<Entry varId="vial2_roll_campfire"	    	value="180"/>
+					<Entry varId="vial2_pitch_campfire" 	    value="0"/>
+					<Entry varId="vial2_yaw_campfire" 	    	value="0"/>
+					<Entry varId="campfire_dontattach_vial2" 	value="true"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_vial2"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_vial2"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_vial2"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="vial2_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial2_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial2_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial2_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial2_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial2_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_vial3" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bottles.swords_campfire_vial3">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="vial3_pos_x_campfire"	    	value="-0.19"/>
+					<Entry varId="vial3_pos_y_campfire" 	    value="-0.2"/>
+					<Entry varId="vial3_pos_z_campfire" 	    value="-0.03"/>
+					<Entry varId="vial3_roll_campfire"	     	value="180"/>
+					<Entry varId="vial3_pitch_campfire" 	    value="0"/>
+					<Entry varId="vial3_yaw_campfire" 	    	value="0"/>
+					<Entry varId="campfire_dontattach_vial3" 	value="true"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_vial3"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_vial3"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_vial3"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="vial3_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial3_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial3_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial3_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial3_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial3_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+	
+	<Group id="swords_campfire_vial4" displayName="Mods.swords_campfire.swords_campfire_base.swords_campfire_bottles.swords_campfire_vial4">
+		<PresetsArray>
+				<Preset id="0" displayName="campfire_zero">
+					<Entry varId="vial4_pos_x_campfire"	     		value="-0.26"/>
+					<Entry varId="vial4_pos_y_campfire" 	     	value="-0.2"/>
+					<Entry varId="vial4_pos_z_campfire" 	    	value="-0.03"/>
+					<Entry varId="vial4_roll_campfire"	     		value="180"/>
+					<Entry varId="vial4_pitch_campfire" 	    	value="0"/>
+					<Entry varId="vial4_yaw_campfire" 	    		value="0"/>
+					<Entry varId="campfire_dontattach_vial4" 	    value="true"/>
+				</Preset>
+			</PresetsArray>  
+		
+		<VisibleVars>
+			<Var id="campfire_enable_changes_vial4"	displayName="campfire_enable_changes" 		displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="campfire_exclude_vial4"			displayName="swords_campfire_exclude_any" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			<Var id="campfire_dontattach_vial4"			displayName="swords_campfire_dontattach" displayType="TOGGLE"		tags="customNames;customDisplayName"/>
+			
+			<Var id="vial4_pos_x_campfire" 			displayName="campfire_base_pos_x" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial4_pos_y_campfire" 			displayName="campfire_base_pos_y" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial4_pos_z_campfire" 			displayName="campfire_base_pos_z" 			displayType="SLIDER;-5.00;5.00;1000"		tags="customNames;customDisplayName"/>
+			<Var id="vial4_roll_campfire" 			displayName="campfire_base_pos_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial4_pitch_campfire" 			displayName="campfire_base_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="vial4_yaw_campfire" 			displayName="campfire_base_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group> 
+
+</UserConfig>

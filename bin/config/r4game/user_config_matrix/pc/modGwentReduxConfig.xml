@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="GwentReduxOptions" displayName="Mods.mod_GwentRedux">
+		<PresetsArray>
+			<Preset id="0" displayName="GwentRedux_reset">
+				<Entry varId="CardGeralt"		value="0"/>
+				<Entry varId="CardYennefer"		value="0"/>
+				<Entry varId="CardCiri"			value="0"/>
+				<Entry varId="CardTriss"		value="0"/>
+				<Entry varId="CardDandelion"	value="0"/>
+				<Entry varId="CardZoltan"		value="0"/>
+				<Entry varId="CardEmiel"		value="0"/>
+				<Entry varId="CardAvallach"		value="0"/>
+				<Entry varId="CardOlgierd"		value="0"/>
+				<Entry varId="CardVran"			value="0"/>
+				<Entry varId="CardNature"		value="0"/>
+				<Entry varId="CardPhilippa"		value="0"/>
+				<Entry varId="CardDethmold"		value="0"/>
+				<Entry varId="CardVincent"		value="0"/>
+				<Entry varId="CardWhoreson"		value="0"/>
+				<Entry varId="CardTower"		value="0"/>
+				<Entry varId="CardAlba"			value="0"/>
+				<Entry varId="CardSaesen"		value="0"/>
+				<Entry varId="CardImlerith"		value="0"/>
+				<Entry varId="CardAbaya"		value="0"/>
+				<Entry varId="CardCoral"		value="0"/>
+				<Entry varId="CardCalanthe"		value="0"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var  id="CardGeralt" displayName="gwint_geralt" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardGeralt" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_geralt_alt1">
+						<Entry varId="CardGeralt" value="1"/>
+					</Option>
+					<Option id="2" displayName="gwint_geralt_alt2">
+						<Entry varId="CardGeralt" value="2"/>
+					</Option>
+					<Option id="3" displayName="gwint_geralt_alt3">
+						<Entry varId="CardGeralt" value="3"/>
+					</Option>
+					<Option id="4" displayName="gwint_geralt_alt4">
+						<Entry varId="CardGeralt" value="4"/>
+					</Option>
+					<Option id="5" displayName="gwint_geralt_alt5">
+						<Entry varId="CardGeralt" value="5"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardYennefer" displayName="gwint_yennefer" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardYennefer" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_yennefer_alt1">
+						<Entry varId="CardYennefer" value="1"/>
+					</Option>
+					<Option id="2" displayName="gwint_yennefer_alt2">
+						<Entry varId="CardYennefer" value="2"/>
+					</Option>
+					<Option id="3" displayName="gwint_yennefer_alt3">
+						<Entry varId="CardYennefer" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardCiri" displayName="gwint_ciri" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardCiri" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_ciri_alt1">
+						<Entry varId="CardCiri" value="1"/>
+					</Option>
+					<Option id="2" displayName="gwint_ciri_alt2">
+						<Entry varId="CardCiri" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardTriss" displayName="gwint_triss" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardTriss" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_triss_alt1">
+						<Entry varId="CardTriss" value="1"/>
+					</Option>
+					<Option id="2" displayName="gwint_triss_alt2">
+						<Entry varId="CardTriss" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardDandelion" displayName="gwint_dandelion" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardDandelion" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_dandelion_alt1">
+						<Entry varId="CardDandelion" value="1"/>
+					</Option>
+					<Option id="2" displayName="gwint_dandelion_alt2">
+						<Entry varId="CardDandelion" value="2"/>
+					</Option>
+					<Option id="3" displayName="gwint_dandelion_alt3">
+						<Entry varId="CardDandelion" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardZoltan" displayName="gwint_zoltan" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardZoltan" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_zoltan_alt1">
+						<Entry varId="CardZoltan" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardEmiel" displayName="gwint_emiel" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardEmiel" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_emiel_alt1">
+						<Entry varId="CardEmiel" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardAvallach" displayName="gwint_avallach" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardAvallach" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_avallach_alt1">
+						<Entry varId="CardAvallach" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardOlgierd" displayName="gwint_olgierd" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardOlgierd" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_olgierd_alt1">
+						<Entry varId="CardOlgierd" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardVran" displayName="gwint_vran" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardVran" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_vran_alt1">
+						<Entry varId="CardVran" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardNature" displayName="gwint_nature" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardNature" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_nature_alt1">
+						<Entry varId="CardNature" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardPhilippa" displayName="gwint_philippa" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardPhilippa" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_philippa_alt1">
+						<Entry varId="CardPhilippa" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardDethmold" displayName="gwint_dethmold" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardDethmold" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_dethmold_alt1">
+						<Entry varId="CardDethmold" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardVincent" displayName="gwint_vincent" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardVincent" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_vincent_alt1">
+						<Entry varId="CardVincent" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardWhoreson" displayName="gwint_whoreson" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardWhoreson" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_whoreson_alt1">
+						<Entry varId="CardWhoreson" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardTower" displayName="gwint_siege_tower" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardTower" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_siege_tower_alt1">
+						<Entry varId="CardTower" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardAlba" displayName="gwint_alba_division" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardAlba" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_alba_division_alt1">
+						<Entry varId="CardAlba" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardSaesen" displayName="gwint_saesen" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardSaesen" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_saesen_alt1">
+						<Entry varId="CardSaesen" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardImlerith" displayName="gwint_imlerith" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardImlerith" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_imlerith_alt1">
+						<Entry varId="CardImlerith" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardAbaya" displayName="gwint_abaya" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardAbaya" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_abaya_alt1">
+						<Entry varId="CardAbaya" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardCoral" displayName="gwint_coral" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardCoral" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_coral_alt1">
+						<Entry varId="CardCoral" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var  id="CardCalanthe" displayName="gwint_calanthe" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="gwint_base">
+						<Entry varId="CardCalanthe" value="0"/>
+					</Option>
+					<Option id="1" displayName="gwint_calanthe_alt1">
+						<Entry varId="CardCalanthe" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+</UserConfig>

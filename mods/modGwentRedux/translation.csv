@@ -1,0 +1,579 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+1011687|00000000||Not bad. See you don't have Vissegerd in your deck. Here, he's yours.
+1011689|00000000||There's Olivier at the Kingfisher. I play him sometimes. And there was a spell there I hoped to win Gael off Madman Lugos, but after I beat him once the bugger would never play me again.
+1208840|53f7eebf||"The tome you hold in your hands, commissioned by the Most Gracious Duke de Berry, shall make use of magic most arcane to display which gwent unique cards are currently missing from your collection. You need but open it and repeat in your mind "How 'bout a round of gwent?" and the following shall appear:"<br><br>
+1208841|982599b3||"Congratulations! You have collected all currently available unique cards!"<br>
+1208842|73b68a23||Number of unique cards which can still be won from players of no particular renown or skill
+1085102|ee481e72||Hostile Environment
+1085114|51229fd9||Reduces the Strength of specific units on the battlefield to 1. Can also remove another active Hostile Environment effect.
+1085103|bbe83a2c||Hostile Environment
+1085115|71088f13||Reduces the Strength of specific units on the battlefield to 1. Can also remove another active Hostile Environment effect.
+1085104|ded275f8||Hostile Environment
+1085116|b00e93df||Reduces the Strength of specific units on the battlefield to 1. Can also remove another active Hostile Environment effect.
+1192144|aa76a802||Hostile Environment
+1192145|4f1b9569||Reduces the Strength of specific units on the battlefield to 1. Can also remove another active Hostile Environment effect.
+1085105|49bbdc98||Clear Weather
+1085117|4531727f||Removes all active Hostile Environment effects.
+1085100|c3faa47c||Scorch
+1085118|e88cf563||Destroy the strongest unit(s) on the battlefield.
+1090542|a530d4b0||Scorch - Close Combat
+1090541|b9685c97||Destroy your opponent's strongest Close Combat unit(s) if the combined Strength of all his or her Close Combat units is 10 or more.
+1134871|18d8693a||Scorch - Ranged Combat
+1134874|9554a0a1||Destroy your opponent's strongest Ranged Combat unit(s) if the combined Strength of all his or her Ranged Combat units is 10 or more.
+1134916|d1d6e692||Scorch - Siege Combat
+1134917|98f1fff9||Destroy your opponent's strongest Siege Combat unit(s) if the combined Strength of all his or her Siege Combat units is 10 or more.
+1085101|120a4956||Decoy
+1085113|5107c5bd||Swap with a unit on your own battlefield to return it to your hand.
+1085106|1c68776a||Agile
+1085141|50d712d1||Can be placed in either the Close Combat or Ranged Combat row.
+1085099|169cb0a7||Commander's Horn
+1085119|b00a3dce||Doubles the Strength of all units in the same row (doesn't stack with other Commander's Horn).
+1192132|2e0badb6||Hidden Power
+1192133|5183f21d||Transforms into another unit when affected by Regrowth.
+1085107|1599dc0b||Medic
+1085142|5194c432||Choose a unit from your discard pile and play it instantly (except Hero Cards).
+1085108|96400a82||Muster
+1085139|9c40d7e9||Instantly summons specific unit(s) from your deck or hand.
+1208945|2884379b||Instantly summons specific unit(s) from your deck or hand.
+1085110|637334aa||Spy
+1085140|7108c011||Place on your opponent's battlefield and draw 1 card from your deck.
+1085111|234a9f3a||Tight Bond
+1085143|172756a1||Multiplies its Strength by the number of linked cards in the same row.
+1085112|3bfe3caf||Morale Boost
+1085144|b0676fd6||Increases by 1 the Strength of all units in the same row (excluding itself).
+1214909|75cb3636||Rebirth
+1214910|1fb3da9d||When this unit is removed from the battlefield, it summons a new unit to take its place.
+1192130|d0a1163c||Regrowth
+1192131|485bb723||Triggers transformation of all Hidden Power units in the same row.
+1085124|80d695de||Hero
+1085145|b00a1845||Immune to the effects of other units and leaders.
+1085171|290a9f16||Pick a Biting Frost card from your deck and play it instantly.
+1085163|80713990||Pick an Impenetrable Fog card from your deck and play it instantly.
+1085170|8dbb3902||Pick a Torrential Rain card from your deck and play it instantly.
+1085182|7d352bc6||Pick any Hostile Environment card from your deck and play it instantly.
+1085164|c4be3812||Removes all active Hostile Environment effects.
+1085178|c13736f3||Destroy your opponent's strongest Close Combat unit(s) if the combined Strength of all his or her Close Combat units is 10 or more.
+1134742|01e10460||Destroy your opponent's strongest Ranged Combat unit(s) if the combined Strength of all his or her Ranged Combat units is 10 or more.
+1085165|bd7aa85a||Destroy your opponent's strongest Siege Combat unit(s) if the combined Strength of all his or her Siege Combat units is 10 or more.
+1085179|6e77a35e||Triggers transformation of all Hidden Power units on Close Combat row.
+1085177|1c63ed35||Triggers transformation of all Hidden Power units on Ranged Combat row.
+1085166|0be64285||Triggers transformation of all Hidden Power units on Siege Combat row.
+1085169|2d40575e||Look at 5 random cards from your opponent's hand.
+1085168|63da79ea||Passive - Cancel your opponent's Leader Ability.
+1085167|084da8f2||Draw a card from your opponent’s discard pile.
+1085172|a0ca60aa||Passive - Draw 2 extra cards at the beginning of the battle.
+1134734|6de8a0af||Move Agile units to whichever valid row maximizes their strength (don't move units already in optimal row).
+1192135|1461e742||Passive - Your units only lose half their Strength under Hostile Environment effects.
+1192143|c1df2989||Shuffle all cards from each player's graveyard back into their decks.
+1085180|e444be49||Discard 2 cards and draw 1 card of your choice from your deck.
+1085181|987db929||Restore a card from your discard pile to your hand.
+1134750|b709523e||Passive - Double the Strength of all Spy cards (affects both players).
+1134745|77bd355a||Passive - Effects that restore a unit to the battlefield restore a randomly-chosen unit (affects both players).
+1085184|2b68f23c||Draw a card from your deck whenever you win a round.
+1085183|f4f53eed||Win whenever there is a draw.
+1085185|a9f665ff||Decide who goes first at the start of a battle.
+1085186|41b55515||One randomly-chosen unit stays on your own battlefield after each round.
+1192147|41b56795||2 random units from your graveyard are placed on the battlefield at the start of the third round.
+2114287002||gwint_desc_forest|Affects Close Combat and Siege Combat units. Removes Skellige Storm.
+2114287003||gwint_desc_frost|Affects Close Combat units.
+2114287004||gwint_desc_fog|Affects Ranged Combat units.
+2114287005||gwint_desc_rain|Affects Siege Combat units.
+2114287008||gwint_desc_vesemir|Summons Eskel and Lambert.
+2114287009||gwint_desc_yennefer|Summons Geralt of Rivia.
+2114287013||gwint_desc_zoltan|Linked to Yarpen Zigrin and Sheldon Skaggs.
+2114287014||gwint_desc_emiel|Reborn as Emiel Regis Rohellec Terzieff (Bat Form).
+2114287017||gwint_desc_olgierd|Reborn as Olgierd von Everec.
+2114287018||gwint_desc_operator|"As time and space collapse before us, they expand behind us."
+2114287019||gwint_desc_vran|"They sat still on their horses, seemingly relaxed. He saw their weapons - Spears. Swords. Axes."
+2114287020||gwint_desc_cow|Reborn as Bovine Defense Force.
+2114287022||gwint_desc_clan_heymaey_flaminica|"A flaminica commands a great deal of respect and wields a great deal of power."
+2114287023||gwint_desc_skellige_storm|Affects Ranged Combat and Siege Combat units. Removes White Frost.
+2114287024||gwint_desc_white|Affects Close Combat and Ranged Combat units. Removes Forest of Death.
+2114287025||gwint_desc_hailstorm|"The sky dimmed of a sudden, and clouds amassed over the town."
+2114287026||gwint_desc_catriona|"Epidemics respect no persons, no borders."
+2114287027||gwint_desc_ragh_nar_roog|"In the Final Age, Hemdall will come forth to face the evil issuing from the land of Morhogg."
+2114287028||gwint_desc_nature|"Nature has long endured man's excesses. But even she finally ran out of patience."
+2114287029||gwint_desc_water|"Drink, child. Wash away your past, your worries. Drink and become our sister!"
+2114287030||gwint_desc_moon|"When the moon burns red, latch the door and put your lambs to bed."
+2114287031||gwint_desc_dreams|"A finback? With a snout that short? Those herbs’ve gone to your head!"
+2114287035||gwint_desc_ekhidna|Linked to Ekhidna.
+2114287041||gwint_desc_emiel_bat|Summons Vampire: Plumard.
+2114287066||gwint_desc_dudu|"A mimic, among the many other names for his sort: changelings, doublings, vexlings... or dopplers."
+2114287067||gwint_desc_cleaver|Summons Crownsplitter Thug.
+2114287071||gwint_desc_olgierd_alt|"At least you now know I don't easily lose my head."
+2114287100||gwint_desc_vernon|Summons Ves.
+2114287101||gwint_desc_natalis|Summons Poor Fucking Infantry.
+2114287102||gwint_desc_vissegerd|"I will raise Cintra from the ashes no matter how great the cost."
+2114287103||gwint_desc_philippa|Summons Keira Metz, Síle de Tansarville and Sabrina Glevissig.
+2114287104||gwint_desc_jacques|"The ends ever justify the means."
+2114287106||gwint_desc_ves|Linked to Blue Stripes Commando.
+2114287107||gwint_desc_shani|"I'm a medic. I tend to know what I'm doing when I prescribe something."
+2114287108||gwint_desc_yarpen|Linked to Zoltan Chivay and Sheldon Skaggs.
+2114287111||gwint_desc_keira|Summons Síle de Tansarville and Sabrina Glevissig.
+2114287112||gwint_desc_sile|Summons Keira Metz and Sabrina Glevissig.
+2114287113||gwint_desc_sabrina|Summons Keira Metz and Síle de Tansarville.
+2114287114||gwint_desc_sheldon|Linked to Zoltan Chivay and Yarpen Zigrin.
+2114287117||gwint_desc_vincent|"By day, Captain of the Vizima City Guard. By night, merciless avenger and defender of the downtrodden."
+2114287118||gwint_desc_anseis|"Your presence at this tourney is an affront to my honor!"
+2114287120||gwint_desc_trebuchet|Summons Trebuchet.
+2114287121||gwint_desc_poor_infantry|Linked to Poor Fucking Infantry.
+2114287124||gwint_desc_ballista_reinforced|"What crossbows want to be when they grow up."
+2114287125||gwint_desc_ballista|Transforms into Reinforced Ballista.
+2114287130||gwint_desc_crinfrid|Linked to Crinfrid Reavers Dragon Hunter.
+2114287135||gwint_desc_eskel|"I'm a simple witcher, Wolf. Don't fight dragons, don't fraternize with kings and don't sleep with sorceresses."
+2114287136||gwint_desc_lambert|"Now that's the kind of negotiating I understand."
+2114287141||gwint_desc_caleb_menge|"Deceivers, heretics, witches! They flood our city, corrupt our virtue, and threaten our very way of life!"
+2114287142||gwint_desc_nathaniel|Summons Caleb Menge.
+2114287143||gwint_desc_lebioda|Reborn as Sacred Flame.
+2114287144||gwint_desc_flame|Summons Cleric of the Flaming Rose and Redanian Foot Soldier.
+2114287146||gwint_desc_kaedweni_support|Summons Ballista.
+2114287147||gwint_desc_cutup|Summons Cutup Lackey and Whoreson Junior.
+2114287150||gwint_desc_witch_hunter|"Who are the witch hunters? Scoundrels and fanatics, for the most part."
+2114287151||gwint_desc_beggar|Linked to King of Beggars.
+2114287152||gwint_desc_peach|"They'll mess with your head, break your heart and empty your purse."
+2114287155||gwint_desc_cleric_rose|Summons Knight of the Flaming Rose.
+2114287156||gwint_desc_knight_rose|Transforms into Greater Brother.
+2114287157||gwint_desc_greater_brother|"With great pride and full responsibility I must state that the experiment was successful."
+2114287161||gwint_desc_blue_stripes|Linked to Ves and Blue Stripes Commando.
+2114287165||gwint_desc_francis|Linked to Beggar.
+2114287166||gwint_desc_whoreson|Reborn as Dudu.
+2114287167||gwint_desc_carlo|Transforms into Cleaver.
+2114287171||gwint_desc_crownsplitter|"Frilly frock or Mahakam steel breastplate – wouldn't have mattered."
+2114287176||gwint_desc_igor|Summons Tatterwing and Boris.
+2114287201||gwint_desc_menno|Summons Nausicaa Cavalry Rider.
+2114287202||gwint_desc_ardal|"In my home, a general commands his force. He does not rush and thrash about like some rabid hound."
+2114287203||gwint_desc_tibor|Linked to Alba Division Spearman.
+2114287206||gwint_desc_assire|Summons Fringilla Vigo.
+2114287207||gwint_desc_cynthia|Linked to Vanhemar.
+2114287208||gwint_desc_fringilla|Summons Assire var Anahid.
+2114287209||gwint_desc_peter_saar|"These are not the hands of an 'Excellency', but of a farmer. So we speak peasant to peasant."
+2114287211||gwint_desc_cantarella|"Men require constant alluring. Mystique and refinement do the job quite well."
+2114287216||gwint_desc_joachim|"To describe the manner in which he led the Verden Group as 'incompetent' would be far too kind."
+2114287217||gwint_desc_vanhemar|Linked to Cynthia.
+2114287225||gwint_desc_henrietta|Summons Vivienne de Tabris and Damien de la Tour.
+2114287226||gwint_desc_syanna|"Your Majesty... The princess has been touched by the curse o' the Black Sun. There's no hope, I'm afraid."
+2114287227||gwint_desc_artorius|"It is said he created an illusion so realistic that he began to believe it himself."
+2114287228||gwint_desc_vivienne|Transforms into Oriole.
+2114287229||gwint_desc_oriole|"Who'd not like to live free as a bird? Well, just ask Vivienne de Tabris."
+2114287230||gwint_desc_archer_support|Linked to Etolian Auxiliary Archers.
+2114287231||gwint_desc_rience|Summons Vilgefortz.
+2114287236||gwint_desc_vilgefortz|"We are all pawns on his board. Playing a game whose rules we do not know."
+2114287241||gwint_desc_zerri|Transforms into Heavy Zerrikanian Fire Scorpion.
+2114287245||gwint_desc_alba_division|Linked to Tibor Eggebracht and Alba Division Spearman.
+2114287246||gwint_desc_serrit|Summons Letho of Gulet and Auckes.
+2114287247||gwint_desc_auckes|Summons Letho of Gulet and Serrit.
+2114287248||gwint_desc_leo_bonhart|"He would just sit there and stare at me, not saying a word. His eyes, they were... fish-like somehow."
+2114287249||gwint_desc_vicovaro|"Well... At least, I can't make you more dead..."
+2114287251||gwint_desc_ducal_guard|Linked to Ducal Guard.
+2114287252||gwint_desc_damien|Summons Ducal Guard.
+2114287253||gwint_desc_milton|Linked to Palmerin de Launfal.
+2114287254||gwint_desc_palmerin|Linked to Milton de Peyrac-Peyran.
+2114287261||gwint_desc_gregoire|"Gregoire? That mountain o' muscle wrapped in armor? Course, I 'eard of 'im! Who hasn't?"
+2114287265||gwint_desc_alchemist|Summons Zerrikanian Fire Scorpion.
+2114287300||gwint_desc_sirssa|Summons Braenn and Morénn.
+2114287301||gwint_desc_saskia|Transforms into Saesenthessis.
+2114287303||gwint_desc_iorveth|Summons Isengrim Faoiltiarna.
+2114287304||gwint_desc_saesen|"I inherited my father's ability to assume other forms - well, one other form, in my case."
+2114287305||gwint_desc_dennis|Linked to Mahakaman Defender.
+2114287310||gwint_desc_toruviel|Summons Vrihedd Brigade Recruit.
+2114287313||gwint_desc_barclay|Summons Mahakam Defender.
+2114287315||gwint_desc_aglais|"Brokilon bleeds... and not even I can heal it."
+2114287316||gwint_desc_braenn|Summons Sirssa and Morénn.
+2114287317||gwint_desc_fauve|"Dandelion recognized her at once - the very same with green hair who had given them light in dark of night."
+2114287318||gwint_desc_morenn|"Lady Eithné's daughter had inherited her sublime beauty and her wild hatred for all that is human."
+2114287320||gwint_desc_havcaaren_support|Linked to Havekar Smuggler.
+2114287321||gwint_desc_vernossiel|"It turns out that the forest isn't inhabited by 'some furry fucking thing', but Scoia'tael commandos."
+2114287322||gwint_desc_malena|"I hate you, dh'oine. You are all the same."
+2114287325||gwint_desc_vrihedd_brigade|Linked to Vrihedd Brigade Veteran.
+2114287326||gwint_desc_lady_lake|"Take this sword as a sign of my favor. For centuries it lay in these depths, waiting... for you."
+2114287330||gwint_desc_dol_scout|Transforms into Dol Blathanna Archer.
+2114287331||gwint_desc_dol_bomber|"They track like hounds, run like deer and kill like heartless demons."
+2114287332||gwint_desc_halfelf|"Hated by men, reviled by elves and always picked last during schoolyard games."
+2114287335||gwint_desc_siren|Transforms into Ekhidna.
+2114287340||gwint_desc_mahakam|Linked to Dennis Cranmer and Mahakaman Defender.
+2114287341||gwint_desc_percival|"Underneath the wet hood, instead of a billowy beard, was a long, pointed nose."
+2114287342||gwint_desc_chariot|Summons Dwarven Mercenary.
+2114287343||gwint_desc_mercenary|"The key's mixin' pleasure an' business - like smackin' foes and gettin' coin for it."
+2114287344||gwint_desc_sentinel|"Brokilon yet lives on in the cities, villages, and fields you so callously carved from her flesh."
+2114287345||gwint_desc_grovekeeper|Summons Treant: Boar and Treant: Mantis.
+2114287346||gwint_desc_treant_boar|"Dryads wield a mystifying power to shape the forest's trees into any form they wish."
+2114287347||gwint_desc_treant_mantis|"Feel to you like we're bein' followed?"
+2114287350||gwint_desc_elf_skirmisher|Summons Elven Skirmisher.
+2114287351||gwint_desc_dwarf|Summons Dwarven Skirmisher.
+2114287352||gwint_desc_eleyas|"Love justifies madness in any of its forms."
+2114287355||gwint_desc_vrihedd_cadet|Transforms into Vrihedd Brigade Veteran.
+2114287366||gwint_desc_hattori|"Only thing that can rival his swords? His dumplings."
+2114287367||gwint_desc_aelirenn|"Better to die standing than to live on bent knee."
+2114287403||gwint_desc_leshen|Summons Wolf.
+2114287404||gwint_desc_dagon|"That is not dead which can eternal lie, and with strange aeons even death may die."
+2114287405||gwint_desc_golyat|"Some claim Golyat was once a famous knight. Sadly, one day he earned the wrath of the Lady of the Lake."
+2114287408||gwint_desc_caranthir|"A favorite son who chose a life of villainy."
+2114287409||gwint_desc_nithral|"Eredin's personal cavalcade includes only the most brutal and most ferocious warriors of the Aen Elle."
+2114287415||gwint_desc_hubert|"The coroner is a calm, peaceful person. He even treats corpses with the utmost delicacy."
+2114287417||gwint_desc_morkvarg|Transforms into Ulfhedinn.
+2114287418||gwint_desc_ulfhedinn|Reborn as Ulfhedinn.
+2114287420||gwint_desc_botchling|Transforms into Lubberkin.
+2114287421||gwint_desc_lubberkin|"I name thee Dea and embrace thee as my daughter."
+2114287422||gwint_desc_bloody_baron|"I've not been a good father, I know, but... perhaps it's not too late."
+2114287427||gwint_desc_drowner|Summons Drowner and Abaya.
+2114287433||gwint_desc_old_speartip|Transforms into Old Speartip.
+2114287434||gwint_desc_old_speartip_awaken|"Oh, you're in a heap of trouble now."
+2114287435||gwint_desc_queen_night|"Those seduced by her charms find themselves willing to pay any price."
+2114287436||gwint_desc_iris|Summons Iris' Companions.
+2114287437||gwint_desc_black_cat_dog|"We'd rather keep our names to ourselves. Think of us as... friends of the house."
+2114287440||gwint_desc_abaya|"Seen a lot o' ugly critters in me life - morays, lampreys, blobfish... But never nothin' like this!"
+2114287448||gwint_desc_boris|"After getting a taste of human flesh, he won't eat anything else."
+2114287450||gwint_desc_arachas_behemoth|Summons Arachas.
+2114287452||gwint_desc_plumard|Linked to Vampire: Plumard.
+2114287453||gwint_desc_wolf|Linked to Wolf.
+2114287455||gwint_desc_nekker|Summons Nekker.
+2114287460||gwint_desc_ekkima|Summons Vampire: Fleder, Vampire: Garkain and Vampire: Alp.
+2114287461||gwint_desc_fleder|Summons Vampire: Ekimmara, Vampire: Garkain and Vampire: Alp.
+2114287462||gwint_desc_garkain|Summons Vampire: Ekimmara, Vampire: Fleder and Vampire: Alp.
+2114287463||gwint_desc_bruxa|Summons Emiel Regis Rohellec Terzieff and Dettlaff van der Eretein.
+2114287464||gwint_desc_katakan|"A fondness for shiny trinkets is not a trait unique to magpies."
+2114287465||gwint_desc_alp|"Folk tales describe their charm and their beautiful, seductive voices, as well as their loathing of virgins."
+2114287466||gwint_desc_dettlaff|Transforms into Beast of Beauclair.
+2114287467||gwint_desc_beast|Summons Vampire: Plumard.
+2114287470||gwint_desc_ghoul|Linked to Ghoul.
+2114287471||gwint_desc_kiyan|"We live on a placid island of ignorance in the midst of black seas of infinity."
+2114287472||gwint_desc_caretaker|Summons Iris von Everec.
+2114287475||gwint_desc_crone_whispess|Summons Crone: Brewess and Crone: Weavess.
+2114287476||gwint_desc_crone_brewess|Summons Crone: Whispess and Crone: Weavess.
+2114287477||gwint_desc_crone_weavess|Summons Crone: Whispess and Crone: Brewess.
+2114287480||gwint_desc_azar_javed|"Not only deftly manipulates the power of fire, it can be said that fire has become a part of his very being."
+2114287481||gwint_desc_professor|"I feel our conventicle may end disastrously for you."
+2114287482||gwint_desc_savolla|Summons Frightener.
+2114287485||gwint_desc_centipede|Linked to Yghern.
+2114287490||gwint_desc_wildhunt_drakkar|Summons Imlerith and Caranthir Ar-Feiniel.
+2114287491||gwint_desc_wildhunt_warrior|"The White Frost is coming."
+2114287492||gwint_desc_wildhunt_rider|Linked to Wild Hunt Rider.
+2114287495||gwint_desc_wildhunt_hound|"Cry 'Havoc!', and let slip the dogs of war."
+2114287496||gwint_desc_striga|Reborn as Adda the White.
+2114287497||gwint_desc_adda|"Her curse was lifted... but her appetite for raw meat remained."
+2114287498||gwint_desc_wildhunt_navigator|Reborn as Portal.
+2114287499||gwint_desc_portal|Summons Wild Hunt Warrior and Wild Hunt Hound.
+2114287502||gwint_desc_octo|"Once proud jarl of Clan Tordarroch, now a muttering madman."
+2114287506||gwint_desc_madman_lugos|Linked to Blueboy Lugos.
+2114287507||gwint_desc_donar_an_hindar|Summons Clan Heymaey Skald.
+2114287508||gwint_desc_udalryk|Reborn as Hym.
+2114287510||gwint_desc_blueboy_lugos|Linked to Madman Lugos.
+2114287513||gwint_desc_berserker|Transforms into Berserker.
+2114287514||gwint_desc_berserker_bear|Summons Vildkaarl Ravager.
+2114287515||gwint_desc_young_berserker|Transforms into Young Berserker.
+2114287516||gwint_desc_young_berserker_bear|Linked to Young Berserker and Vabjorn.
+2114287517||gwint_desc_clan_an_craite_warrior|Linked to Clan an Craite Warrior.
+2114287521||gwint_desc_war_drakkar|Linked to War Longship.
+2114287522||gwint_desc_clan_brokvar_archer|Linked to Clan Brokvar Archer.
+2114287523||gwint_desc_clan_drummond_shieldmaiden|Summons Clan Drummond Shield Maiden.
+2114287524||gwint_desc_clan_dimun_pirate|Summons Light Longship.
+2114287525||gwint_desc_cock|Reborn as Hemdall.
+2114287528||gwint_desc_jutta|"Some call her the 'Iron Maiden'."
+2114287529||gwint_desc_skjall|"We have ways of making you talk... alive or dead."
+2114287530||gwint_desc_hym|"The gods' speak to me... I hear them whisper from the shadows..."
+2114287531||gwint_desc_coral|"Her true name's Astrid Lyttneyd Ásgeirrfinnbjornsdottir, but that never fit on any forms."
+2114287532||gwint_desc_yoana|"No one'd ever think I could be a skilled armorer - a human, and a woman to boot."
+2114287533||gwint_desc_djenge_frett|"Should I catch you, you'll hang, and I'll tickle your feet as you expire."
+2114287534||gwint_desc_clan_an_craite_whaler|"Always bags the biggest beauties around, at sea and in port."
+2114287535||gwint_desc_boatbuilders|"There's no more respected profession on the islands than boat building."
+2114287536||gwint_desc_sukrus|"One of many who sought fortune in Novigrad. And one of many more who never found it."
+2114287537||gwint_desc_athak|"He'll not reveal his name till he's defeated. He's a troll errant, see?"
+2114287538||gwint_desc_clan_tuirseach_skirmisher|Summons Clan Tuirseach Skirmisher.
+2114287539||gwint_desc_clan_dimun_smuggler|Linked to Clan Dimun Smuggler.
+2114287540||gwint_desc_clan_dimun_captain|Summons Clan Dimun Smuggler.
+2114287541||gwint_desc_clan_an_craite_marauder|"You daft? You mean to sail to Skellige? Those barbarians'll tear you to shreds!"
+2114287560||gwint_desc_freya|"Modron Freya, the Great Mother, is the goddess of love, beauty and bounty."
+2114287561||gwint_desc_tyr|Summons Kambi.
+2114287562||gwint_desc_artis|"Not all Svalblod priests were forced from the isles... Unfortunately."
+2114287563||gwint_desc_vabjorn|Linked to Young Berserker.
+2114287564||gwint_desc_svalblod|Summons Artis and Knut the Callous.
+2114287565||gwint_desc_knut|"Knut, son of Oluf? Aye, never has a jarl's moniker fit so well."
+2114287600||panel_Mods|Mods
+2114287601||panel_mod_GwentRedux|Gwent Redux
+2114287602||preset_Mods_mod_GwentRedux|Gwent Redux: Alternative Cards
+2114287603||preset_value_GwentRedux_reset|Reset
+2114287604||preset_value_gwint_base|Base
+2114287605||option_gwint_geralt|Geralt of Rivia
+2114287606||preset_value_gwint_geralt_alt1|Aard
+2114287607||preset_value_gwint_geralt_alt2|Axii
+2114287608||preset_value_gwint_geralt_alt3|Igni
+2114287609||preset_value_gwint_geralt_alt4|Yrden
+2114287610||preset_value_gwint_geralt_alt5|Professional
+2114287611||option_gwint_yennefer|Yennefer of Vengerberg
+2114287612||preset_value_gwint_yennefer_alt1|Conjurer
+2114287613||preset_value_gwint_yennefer_alt2|Enchantress
+2114287614||preset_value_gwint_yennefer_alt3|Necromancer
+2114287615||option_gwint_ciri|Cirilla Fiona Elen Riannon
+2114287616||preset_value_gwint_ciri_alt1|Dash
+2114287617||preset_value_gwint_ciri_alt2|Nova
+2114287618||option_gwint_triss|Triss Merigold
+2114287619||preset_value_gwint_triss_alt1|Butterflies
+2114287620||preset_value_gwint_triss_alt2|Telekinesis
+2114287621||option_gwint_dandelion|Dandelion
+2114287622||preset_value_gwint_dandelion_alt1|Priscilla
+2114287623||preset_value_gwint_dandelion_alt2|Poet
+2114287624||preset_value_gwint_dandelion_alt3|Vainglory
+2114287625||gwint_name_dandelion_alt1|Priscilla
+2114287626||gwint_desc_dandelion_alt1|"Picture Dandelion in a dress and you've got the general idea."
+2114287627||option_gwint_zoltan|Zoltan Chivay
+2114287628||preset_value_gwint_zoltan_alt1|Scoundrel
+2114287629||option_gwint_emiel|Emiel Regis Rohellec Terzieff
+2114287630||preset_value_gwint_emiel_alt1|Bloodlust
+2114287631||option_gwint_avallach|Avallac'h
+2114287632||preset_value_gwint_avallach_alt1|Mysterious Elf
+2114287633||option_gwint_olgierd|Olgierd von Everec
+2114287634||preset_value_gwint_olgierd_alt1|Immortal
+2114287635||option_gwint_vran|Vran Warrior
+2114287636||preset_value_gwint_vran_alt1|Maerolorn
+2114287637||gwint_name_vran_alt1|Maerolorn
+2114287638||gwint_desc_vran_alt1|"Fear not the shadows, but the light."
+2114287639||option_gwint_nature|Nature's Rebuke
+2114287640||preset_value_gwint_nature_alt1|Scorch
+2114287641||gwint_name_nature_alt1|Scorch
+2114287642||gwint_desc_nature_alt1|"Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
+2114287643||option_gwint_philippa|Philippa Eilhart
+2114287644||preset_value_gwint_philippa_alt1|Owl
+2114287645||option_gwint_dethmold|Dethmold
+2114287646||preset_value_gwint_dethmold_alt1|Black Rayla
+2114287647||gwint_name_dethmold_alt1|Black Rayla
+2114287648||gwint_desc_dethmold_alt1|"Exceptions are a clear road to human blood spill. Leave the gods to sort the wheat from the chaff."
+2114287649||option_gwint_vincent|Vincent Meis
+2114287650||preset_value_gwint_vincent_alt1|Angoulême
+2114287651||gwint_name_vincent_alt1|Angoulême
+2114287652||gwint_desc_vincent_alt1|"Don't matter if it crawls, slithers, climbs — you name it, I've eaten it."
+2114287653||option_gwint_whoreson|Whoreson Junior
+2114287654||preset_value_gwint_whoreson_alt1|Cyprian Wiley
+2114287655||option_gwint_siege_tower|Siege Tower
+2114287656||preset_value_gwint_siege_tower_alt1|Battering Ram
+2114287657||gwint_name_siege_tower_alt1|Battering Ram
+2114287658||gwint_desc_siege_tower_alt1|"Not gonna open up, eh? Guess we gotta knock harder."
+2114287659||option_gwint_alba_division|Alba Division Spearman
+2114287660||preset_value_gwint_alba_division_alt1|Impera Brigade Guard
+2114287661||gwint_name_tibor_alt1|Tibor Eggebracht
+2114287662||gwint_desc_tibor_alt1|Linked to Impera Brigade Guard.
+2114287663||gwint_name_alba_division_alt1|Impera Brigade Guard
+2114287664||gwint_desc_alba_division_alt1|Linked to Tibor Eggebracht and Impera Brigade Guard.
+2114287665||option_gwint_saesen|Saesenthessis
+2114287666||preset_value_gwint_saesen_alt1|Blaze
+2114287667||option_gwint_imlerith|Imlerith
+2114287668||preset_value_gwint_imlerith_alt1|Sabbath
+2114287669||option_gwint_abaya|Abaya & Drowner
+2114287670||preset_value_gwint_abaya_alt1|The Beast & Barghest
+2114287671||gwint_name_drowner_alt1|Barghest
+2114287672||gwint_desc_drowner_alt1|Summons Barghest and The Beast.
+2114287673||gwint_name_abaya_alt1|The Beast
+2114287674||gwint_desc_abaya_alt1|"The Beast didn't come from nowhere. You all summoned it. With your lust, your greed and your cruelty."
+2114287675||option_gwint_coral|Lytta Neyd
+2114287676||preset_value_gwint_coral_alt1|Coral
+2114287677||option_gwint_calanthe|Calanthe
+2114287678||preset_value_gwint_calanthe_alt1|Meve
+2114287679||gwint_name_calanthe_alt1|Meve
+2114287680||gwint_desc_calanthe_alt1|"We're at war, when rulers grasp sword and shield and ride out to defend their subjects."
+2114287700||gwint_name_forest|Forest of Death
+2114287701||gwint_name_clan_heymaey_flaminica|Clan Heymaey Flaminica
+2114287702||gwint_name_white|White Frost
+2114287703||gwint_name_hailstorm|Merigold's Hailstorm
+2114287704||gwint_name_catriona|Catriona Plague
+2114287705||gwint_name_vissegerd|Vissegerd
+2114287706||gwint_name_shani|Shani
+2114287707||gwint_name_ballista_reinforced|Reinforced Ballista
+2114287708||gwint_name_eskel|Eskel
+2114287709||gwint_name_lambert|Lambert
+2114287710||gwint_name_caleb_menge|Caleb Menge
+2114287711||gwint_name_kaedweni_support|Kaedweni Siege Support
+2114287712||gwint_name_witch_hunter|Witch Hunter
+2114287713||gwint_name_peter_saar|Peter Saar Gwynleve
+2114287714||gwint_name_cantarella|Cantarella
+2114287715||gwint_name_rience|Rience
+2114287716||gwint_name_vilgefortz|Vilgefortz
+2114287717||gwint_name_serrit|Serrit
+2114287718||gwint_name_auckes|Auckes
+2114287719||gwint_name_leo_bonhart|Leo Bonhart
+2114287720||gwint_name_ducal_guard|Ducal Guard
+2114287721||gwint_name_damien|Damien de la Tour
+2114287722||gwint_name_gregoire|Gregoire de Gorgon
+2114287723||gwint_name_alchemist|Alchemist
+2114287724||gwint_name_vernossiel|Vernossiel
+2114287725||gwint_name_malena|Malena
+2114287726||gwint_name_lady_lake|Lady of the Lake
+2114287727||gwint_name_dol_bomber|Dol Blathanna Bomber
+2114287728||gwint_name_halfelf|Half-Elf Hunter
+2114287729||gwint_name_siren|Siren
+2114287730||gwint_name_percival|Percival Schuttenbach
+2114287731||gwint_name_chariot|Dwarven Chariot
+2114287732||gwint_name_mercenary|Dwarven Mercenary
+2114287733||gwint_name_sentinel|Brokilon Sentinel
+2114287734||gwint_name_eleyas|Ele'yas
+2114287735||gwint_name_hattori|Éibhear Hattori
+2114287736||gwint_name_aelirenn|Aelirenn
+2114287737||gwint_name_leshen|Woodland Spirit
+2114287738||gwint_name_fiend|Morvudd
+2114287739||gwint_name_plague_maiden|Anabelle
+2114287740||gwint_name_hubert|Hubert Rejk
+2114287741||gwint_name_morkvarg|Morkvarg
+2114287742||gwint_name_ulfhedinn|Ulfhedinn
+2114287743||gwint_name_lubberkin|Lubberkin
+2114287744||gwint_name_bloody_baron|Bloody Baron
+2114287745||gwint_name_ice_giant|Myrhyff
+2114287746||gwint_name_drowner|Drowner
+2114287747||gwint_name_old_speartip|Sleeping Giant
+2114287748||gwint_name_old_speartip_awaken|Old Speartip
+2114287749||gwint_name_queen_night|Queen of the Night
+2114287750||gwint_name_iris|Iris von Everec
+2114287751||gwint_name_black_cat_dog|Iris' Companions
+2114287752||gwint_name_abaya|Abaya
+2114287753||gwint_name_plumard|Vampire: Plumard
+2114287754||gwint_name_wolf|Wolf
+2114287755||gwint_name_bruxa|Orianna
+2114287756||gwint_name_katakan|Gael
+2114287757||gwint_name_kiyan|Kiyan
+2114287758||gwint_name_caretaker|Caretaker
+2114287759||gwint_name_toad|Toad Prince
+2114287760||gwint_name_jutta|Jutta an Dimun
+2114287761||gwint_name_skjall|Skjall
+2114287762||gwint_name_hym|Hym
+2114287763||gwint_name_coral|Lytta Neyd
+2114287764||gwint_name_yoana|Yoana
+2114287765||gwint_name_djenge_frett|Djenge Frett
+2114287766||gwint_name_clan_an_craite_whaler|Clan an Craite Whaler
+2114287767||gwint_name_boatbuilders|Boatbuilders
+2114287768||gwint_name_sukrus|Sukrus
+2114287769||gwint_name_athak|Athak Akydalv
+2114287770||gwint_name_golyat|Golyat
+2114287771||gwint_name_wyvern|Tatterwing
+2114287772||gwint_name_joachim|Joachim de Wett
+2114287773||gwint_name_vicovaro|Vicovaro Medic
+2114287774||gwint_name_ekhidna|Ekhidna
+2114287775||gwint_name_hjalmar|Hjalmar an Craite
+2114287776||gwint_name_octo|Harald Houndsnout
+2114287777||gwint_name_svanrige|Svanrige Tuirseach
+2114287778||gwint_name_berserker|Vildkaarl Butcher
+2114287779||gwint_name_berserker_bear|Berserker
+2114287780||gwint_name_young_berserker|Vildkaarl Ravager
+2114287781||gwint_name_young_berserker_bear|Young Berserker
+2114287782||gwint_name_clan_dimun_pirate|Clan Dimun Corsair
+2114287783||gwint_name_clan_tuirseach_skirmisher|Clan Tuirseach Skirmisher
+2114287784||gwint_name_clan_dimun_smuggler|Clan Dimun Smuggler
+2114287785||gwint_name_clan_dimun_captain|Clan Dimun Captain
+2114287786||gwint_name_clan_an_craite_marauder|Clan an Craite Marauder
+2114287787||gwint_name_alba_division|Alba Division Spearman
+2114287788||gwint_name_saskia|Saskia
+2114287789||gwint_name_saesen|Saesenthessis
+2114287800||gwint_name_jacques|Jacques de Aldersberg
+2114287801||gwint_name_vincent|Vincent Meis
+2114287802||gwint_name_cleric_rose|Cleric of the Flaming Rose
+2114287803||gwint_name_knight_rose|Knight of the Flaming Rose
+2114287804||gwint_name_greater_brother|Greater Brother
+2114287805||gwint_name_dagon|Dagon
+2114287806||gwint_name_azar_javed|Azar Javed
+2114287807||gwint_name_professor|Professor
+2114287808||gwint_name_savolla|Savolla
+2114287809||gwint_name_striga|Adda
+2114287810||gwint_name_adda|Adda the White
+2114287811||gwint_name_avallach|Avallac'h
+2114287812||gwint_name_operator|Operator
+2114287813||gwint_name_vran|Vran Warrior
+2114287814||gwint_name_ardal|Ardal aep Dahy
+2114287815||gwint_name_sirssa|Sirssa
+2114287816||gwint_name_ragh_nar_roog|Ragh Nar Roog
+2114287817||gwint_name_caranthir|Caranthir Ar-Feiniel
+2114287818||gwint_name_nithral|Nithral
+2114287819||gwint_name_wildhunt_drakkar|Naglfar
+2114287820||gwint_name_wildhunt_warrior|Wild Hunt Warrior
+2114287821||gwint_name_wildhunt_rider|Wild Hunt Rider
+2114287822||gwint_name_wildhunt_hound|Wild Hunt Hound
+2114287823||gwint_name_wildhunt_navigator|Wild Hunt Navigator
+2114287824||gwint_name_portal|Portal
+2114287825||gwint_name_dudu|Dudu
+2114287826||gwint_name_cleaver|Cleaver
+2114287827||gwint_name_nathaniel|Nathaniel Pastodi
+2114287828||gwint_name_cutup|Cutup Lackey
+2114287829||gwint_name_beggar|Beggar
+2114287830||gwint_name_peach|Passiflora Peaches
+2114287831||gwint_name_francis|King of Beggars
+2114287832||gwint_name_whoreson|Whoreson Junior
+2114287833||gwint_name_carlo|Carlo Varese
+2114287834||gwint_name_crownsplitter|Crownsplitter Thug
+2114287835||gwint_name_igor|Igor The Hook
+2114287836||gwint_name_boris|Boris
+2114287837||gwint_name_nature|Nature's Rebuke
+2114287838||gwint_name_water|Water of Brokilon
+2114287839||gwint_name_aglais|Aglaïs
+2114287840||gwint_name_braenn|Braenn
+2114287841||gwint_name_fauve|Fauve
+2114287842||gwint_name_morenn|Morénn
+2114287843||gwint_name_grovekeeper|Dryad Grovekeeper
+2114287844||gwint_name_treant_boar|Treant: Boar
+2114287845||gwint_name_treant_mantis|Treant: Mantis
+2114287846||gwint_name_centipede|Yghern
+2114287847||gwint_name_moon|Blood Moon
+2114287848||gwint_name_anseis|Prince Anséis
+2114287849||gwint_name_henrietta|Anna Henrietta
+2114287850||gwint_name_syanna|Syanna
+2114287851||gwint_name_artorius|Artorius Vigo
+2114287852||gwint_name_vivienne|Vivienne de Tabris
+2114287853||gwint_name_oriole|Oriole
+2114287854||gwint_name_milton|Milton de Peyrac-Peyran
+2114287855||gwint_name_palmerin|Palmerin de Launfal
+2114287856||gwint_name_alp|Vampire: Alp
+2114287857||gwint_name_dettlaff|Dettlaff van der Eretein
+2114287858||gwint_name_beast|Beast of Beauclair
+2114287859||gwint_name_dreams|Cave of Dreams
+2114287860||gwint_name_lebioda|Lebioda
+2114287861||gwint_name_flame|Sacred Flame
+2114287862||gwint_name_freya|Priestess of Freya
+2114287863||gwint_name_tyr|Tyr
+2114287864||gwint_name_artis|Artis
+2114287865||gwint_name_vabjorn|Vabjorn
+2114287866||gwint_name_svalblod|Svalblod
+2114287867||gwint_name_knut|Knut the Callous
+2114287900||gwint_name_roach|Roach
+2114287901||gwint_desc_roach|"Geralt, we gotta have a man–to–horse talk."
+2114287902||gwint_name_demavend|Demavend III
+2114287903||gwint_desc_demavend|"My king enjoys life... enjoys pleasures and indulges often."
+2114287904||gwint_name_calanthe|Calanthe
+2114287905||gwint_desc_calanthe|"They call her the 'Lioness of Cintra'. And not without good reason."
+2114287906||gwint_name_henselt|Henselt
+2114287907||gwint_desc_henselt|"King Henselt did not look like a thief, but, with all due respect, that's really what he was."
+2114287908||gwint_name_radovid|Radovid V
+2114287909||gwint_desc_radovid|"A king should be merciless towards his enemies and generous to his friends."
+2114287910||gwint_name_usurper|Usurper
+2114287911||gwint_desc_usurper|"Why should something as trivial as birth decide who rules over us?"
+2114287912||gwint_name_calveit|Jan Calveit
+2114287913||gwint_desc_calveit|"A sword is but one of many tools at a ruler's disposal."
+2114287914||gwint_name_false_ciri|False Ciri
+2114287915||gwint_desc_false_ciri|"Here she comes, our imperial interest. A mock-princess, a mock-queen for Cintra."
+2114287916||gwint_name_brouver|Brouver Hoog
+2114287917||gwint_desc_brouver|"That doddery dolt? Ye cannae even tell if he's alive or stuffed!"
+2114287918||gwint_name_ithlinne|Ithlinne Aegli aep Aevenien
+2114287919||gwint_desc_ithlinne|"Famed for constantly prophesying the world's doom. Not much fun at parties."
+2114287920||gwint_name_dana|Dana Méadbh
+2114287921||gwint_desc_dana|"She revealeth herself as the Fairhaired Ladie, in flowers all, and all that liveth followeth her path."
+2114287922||gwint_name_ghost_tree|Ghost in the Tree
+2114287923||gwint_desc_ghost_tree|"It will rise again. Elsewhere, beyond our reach. Blood will flow once more."
+2114287924||gwint_name_unseen_elder|Unseen Elder
+2114287925||gwint_desc_unseen_elder|"No one, not even among the higher vampires, knows exactly how old the Unseen Elder is."
+2114287926||gwint_name_geels|Ge'els
+2114287927||gwint_desc_geels|"Paintings should convey emotion, not words."
+2114287928||gwint_name_bran|Bran Tuirseach
+2114287929||gwint_desc_bran|"No one can replace Bran. Though they're sure to try."
+2114287930||gwint_name_crach|Crach an Craite
+2114287931||gwint_desc_crach|"A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
+2114287932||gwint_name_harald|Harald the Cripple
+2114287933||gwint_desc_harald|"No one knows how he got his nickname – no one's dared to ask."
+2114287934||gwint_name_eist|Eist Tuirseach
+2114287935||gwint_desc_eist|"Skellige and Cintra shall stand ever together!"
+2114287936||gwint_name_cerys|Cerys an Craite
+2114287937||gwint_desc_cerys|"They call me Sparrowhawk. Know why? Because I eat rats like you for breakfast."
+2114287950||gwint_source_duel|Duel
+2114287951||gwint_source_loot|Loot
+2114287952||gwint_source_quest|Quest
+2114287953||gwint_source_shop|Shop
+2114287993||gwint_desc_gwint_card_religion|"Religion" Expansion Set<br>
+2114287994||gwint_desc_gwint_card_toussaint|"Toussaint" Expansion Set<br>
+2114287995||gwint_desc_gwint_card_brokilon|"Brokilon" Expansion Set<br>
+2114287996||gwint_desc_gwint_card_syndicate|"Syndicate" Expansion Set<br>
+2114287997||gwint_desc_gwint_card_wildhunt|"Wild Hunt" Expansion Set<br>
+2114287998||gwint_desc_gwint_card_origins|"Origins" Expansion Set<br>
+2114287999||gwint_desc_gwint_card|Basic Set<br>

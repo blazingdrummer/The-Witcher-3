@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+		<Group id="SmartLamp" displayName="Mods.natural_lamplight">
+			<PresetsArray>
+				<Preset id="0" displayName="natural_torchlight_vanilla">
+					<Entry varId="Override"	 value="false"/>
+					<Entry varId="CaveNearMod"	 value="0"/>
+					<Entry varId="CaveFarMod"	 value="0"/>
+					<Entry varId="PrologueNearMod"	 value="0"/>
+					<Entry varId="PrologueFarMod"	 value="0"/>
+					<Entry varId="VelenNearMod"	 value="0"/>
+					<Entry varId="VelenFarMod"	 value="0"/>
+					<Entry varId="CityNearMod"	 value="0"/>
+					<Entry varId="CityFarMod"	 value="0"/>
+					<Entry varId="SkelligeNearMod"	 value="0"/>
+					<Entry varId="SkelligeFarMod"	 value="0"/>
+					<Entry varId="KaerNearMod"	 value="0"/>
+					<Entry varId="KaerFarMod"	 value="0"/>
+					<Entry varId="ToussaintNearMod"	 value="0"/>
+					<Entry varId="ToussaintFarMod"	 value="0"/>
+					<Entry varId="WyzimaNearMod"	 value="0"/>
+					<Entry varId="WyzimaFarMod"	 value="0"/>
+					<Entry varId="MystNearMod"	 value="0"/>
+					<Entry varId="MystFarMod"	 value="0"/>
+					<Entry varId="SpiralNearMod"	 value="0"/>
+					<Entry varId="SpiralFarMod"	 value="0"/>
+					<Entry varId="NearRedMod"	 value="85"/>
+					<Entry varId="NearGreenMod"	 value="83"/>
+					<Entry varId="NearBlueMod"	 value="81"/>
+					<Entry varId="FarRedMod"	 value="23"/>
+					<Entry varId="FarGreenMod"	 value="18"/>
+					<Entry varId="FarBlueMod"	 value="10"/>
+					<Entry varId="GlobalNearMod" value="0"/>
+					<Entry varId="GlobalFarMod"	 value="0"/>
+				</Preset>
+				<Preset id="1" displayName="natural_torchlight_utopia">
+					<Entry varId="Override"	 value="true"/>
+					<Entry varId="CaveNearMod"	 value="0"/>
+					<Entry varId="CaveFarMod"	 value="0"/>
+					<Entry varId="PrologueNearMod"	 value="0"/>
+					<Entry varId="PrologueFarMod"	 value="0.5"/>
+					<Entry varId="VelenNearMod"	 value="0"/>
+					<Entry varId="VelenFarMod"	 value="0.5"/>
+					<Entry varId="CityNearMod"	 value="0"/>
+					<Entry varId="CityFarMod"	 value="0.5"/>
+					<Entry varId="SkelligeNearMod"	 value="0"/>
+					<Entry varId="SkelligeFarMod"	 value="0"/>
+					<Entry varId="KaerNearMod"	 value="0"/>
+					<Entry varId="KaerFarMod"	 value="0.25"/>
+					<Entry varId="ToussaintNearMod"	 value="0"/>
+					<Entry varId="ToussaintFarMod"	 value="0"/>
+					<Entry varId="WyzimaNearMod"	 value="0"/>
+					<Entry varId="WyzimaFarMod"	 value="0"/>
+					<Entry varId="MystNearMod"	 value="0"/>
+					<Entry varId="MystFarMod"	 value="0"/>
+					<Entry varId="SpiralNearMod"	 value="0"/>
+					<Entry varId="SpiralFarMod"	 value="0"/>
+					<Entry varId="NearRedMod"	 value="85"/>
+					<Entry varId="NearGreenMod"	 value="83"/>
+					<Entry varId="NearBlueMod"	 value="81"/>
+					<Entry varId="FarRedMod"	 value="23"/>
+					<Entry varId="FarGreenMod"	 value="18"/>
+					<Entry varId="FarBlueMod"	 value="10"/>
+				</Preset>
+				<Preset id="2" displayName="natural_torchlight_wlm">
+					<Entry varId="Override"	 value="true"/>
+					<Entry varId="CaveNearMod"	 value="0.5"/>
+					<Entry varId="CaveFarMod"	 value="0.25"/>
+					<Entry varId="PrologueNearMod"	 value="0.25"/>
+					<Entry varId="PrologueFarMod"	 value="0.25"/>
+					<Entry varId="VelenNearMod"	 value="0"/>
+					<Entry varId="VelenFarMod"	 value="0.5"/>
+					<Entry varId="CityNearMod"	 value="0.25"/>
+					<Entry varId="CityFarMod"	 value="0.5"/>
+					<Entry varId="SkelligeNearMod"	 value="0"/>
+					<Entry varId="SkelligeFarMod"	 value="0.25"/>
+					<Entry varId="KaerNearMod"	 value="0"/>
+					<Entry varId="KaerFarMod"	 value="0.0"/>
+					<Entry varId="ToussaintNearMod"	 value="0"/>
+					<Entry varId="ToussaintFarMod"	 value="0"/>
+					<Entry varId="WyzimaNearMod"	 value="0"/>
+					<Entry varId="WyzimaFarMod"	 value="0"/>
+					<Entry varId="MystNearMod"	 value="0"/>
+					<Entry varId="MystFarMod"	 value="0"/>
+					<Entry varId="SpiralNearMod"	 value="0"/>
+					<Entry varId="SpiralFarMod"	 value="0"/>
+					<Entry varId="NearRedMod"	 value="85"/>
+					<Entry varId="NearGreenMod"	 value="83"/>
+					<Entry varId="NearBlueMod"	 value="81"/>
+					<Entry varId="FarRedMod"	 value="23"/>
+					<Entry varId="FarGreenMod"	 value="18"/>
+					<Entry varId="FarBlueMod"	 value="10"/>
+				</Preset>
+				<Preset id="3" displayName="natural_torchlight_stlm">
+					<Entry varId="Override"	 value="true"/>
+					<Entry varId="CaveNearMod"	 value="0"/>
+					<Entry varId="CaveFarMod"	 value="0"/>
+					<Entry varId="PrologueNearMod"	 value="0"/>
+					<Entry varId="PrologueFarMod"	 value="0.0"/>
+					<Entry varId="VelenNearMod"	 value="0"/>
+					<Entry varId="VelenFarMod"	 value="0.75"/>
+					<Entry varId="CityNearMod"	 value="0"/>
+					<Entry varId="CityFarMod"	 value="0.75"/>
+					<Entry varId="SkelligeNearMod"	 value="0"/>
+					<Entry varId="SkelligeFarMod"	 value="1"/>
+					<Entry varId="KaerNearMod"	 value="0"/>
+					<Entry varId="KaerFarMod"	 value="0.0"/>
+					<Entry varId="ToussaintNearMod"	 value="0"/>
+					<Entry varId="ToussaintFarMod"	 value="0"/>
+					<Entry varId="WyzimaNearMod"	 value="0"/>
+					<Entry varId="WyzimaFarMod"	 value="0"/>
+					<Entry varId="MystNearMod"	 value="0"/>
+					<Entry varId="MystFarMod"	 value="0.5"/>
+					<Entry varId="SpiralNearMod"	 value="0"/>
+					<Entry varId="SpiralFarMod"	 value="0"/>
+					<Entry varId="NearRedMod"	 value="85"/>
+					<Entry varId="NearGreenMod"	 value="83"/>
+					<Entry varId="NearBlueMod"	 value="81"/>
+					<Entry varId="FarRedMod"	 value="23"/>
+					<Entry varId="FarGreenMod"	 value="18"/>
+					<Entry varId="FarBlueMod"	 value="10"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var id="Shadows" displayName="natural_torchlight_shadows" displayType="OPTIONS" tags="customNames;customDisplayName">
+					<OptionsArray>
+						<Option id="0" displayName="natural_torchlight_shadows_far"><Entry varId="Shadows" value="0"/></Option>
+						<Option id="1" displayName="natural_torchlight_shadows_near"><Entry varId="Shadows" value="1"/></Option>
+						<Option id="2" displayName="natural_torchlight_shadows_both"><Entry varId="Shadows" value="2"/></Option>
+						<Option id="3" displayName="natural_torchlight_shadows_none"><Entry varId="Shadows" value="3"/></Option>
+          </OptionsArray>
+				</Var>
+				<Var id="NearBlend" displayName="natural_torchlight_near_blend" displayType="SLIDER;0;1;4" tags="customNames;customDisplayName"/>
+				<Var id="FarBlend" displayName="natural_torchlight_far_blend" displayType="SLIDER;0;1;4" tags="customNames;customDisplayName"/>
+				<Var id="TransitionInterval" displayName="natural_torchlight_transition" displayType="OPTIONS" tags="customNames;customDisplayName">
+					<OptionsArray>
+						<Option id="0" displayName="natural_torchlight_transition_one"><Entry varId="TransitionInterval" value="0"/></Option>
+						<Option id="1" displayName="natural_torchlight_transition_two"><Entry varId="TransitionInterval" value="1"/></Option>
+						<Option id="2" displayName="natural_torchlight_transition_three"><Entry varId="TransitionInterval" value="2"/></Option>
+						<Option id="3" displayName="natural_torchlight_transition_four"><Entry varId="TransitionInterval" value="3"/></Option>
+						<Option id="4" displayName="natural_torchlight_transition_five"><Entry varId="TransitionInterval" value="4"/></Option>
+          </OptionsArray>
+				</Var>
+				<Var id="GlobalNearMod" displayName="natural_torchlight_global_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="GlobalFarMod" displayName="natural_torchlight_global_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="NearRedMod" displayName="natural_torchlight_red_near" displayType="SLIDER;0;255;255" tags="customNames;customDisplayName"/>
+				<Var id="NearGreenMod" displayName="natural_torchlight_green_near" displayType="SLIDER;0;255;255" tags="customNames;customDisplayName"/>
+				<Var id="NearBlueMod" displayName="natural_torchlight_blue_near" displayType="SLIDER;0;255;255" tags="customNames;customDisplayName"/>
+				<Var id="FarRedMod" displayName="natural_torchlight_red_far" displayType="SLIDER;0;255;255" tags="customNames;customDisplayName"/>
+				<Var id="FarGreenMod" displayName="natural_torchlight_green_far" displayType="SLIDER;0;255;255" tags="customNames;customDisplayName"/>
+				<Var id="FarBlueMod" displayName="natural_torchlight_blue_far" displayType="SLIDER;0;255;255" tags="customNames;customDisplayName"/>
+				<Var id="Override" displayName="natural_torchlight_contextual" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+				<Var id="CaveNearMod" displayName="natural_torchlight_cave_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="CaveFarMod" displayName="natural_torchlight_cave_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="PrologueNearMod" displayName="natural_torchlight_prologue_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="PrologueFarMod" displayName="natural_torchlight_prologue_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="VelenNearMod" displayName="natural_torchlight_velen_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="VelenFarMod" displayName="natural_torchlight_velen_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="CityNearMod" displayName="natural_torchlight_city_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="CityFarMod" displayName="natural_torchlight_city_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="SkelligeNearMod" displayName="natural_torchlight_skellige_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="SkelligeFarMod" displayName="natural_torchlight_skellige_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="KaerNearMod" displayName="natural_torchlight_kaer_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="KaerFarMod" displayName="natural_torchlight_kaer_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="ToussaintNearMod" displayName="natural_torchlight_toussaint_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="ToussaintFarMod" displayName="natural_torchlight_toussaint_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="WyzimaNearMod" displayName="natural_torchlight_wyzima_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="WyzimaFarMod" displayName="natural_torchlight_wyzima_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="MystNearMod" displayName="natural_torchlight_myst_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="MystFarMod" displayName="natural_torchlight_myst_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="SpiralNearMod" displayName="natural_torchlight_spiral_near" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+				<Var id="SpiralFarMod" displayName="natural_torchlight_spiral_far" displayType="SLIDER;-1;2;12" tags="customNames;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+</UserConfig>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="crossbowtorchonroach" displayName="Mods.crossbowtorchonroach">
+		<PresetsArray id="crossbowtorchonroach_presets">
+
+				<Preset id="0" displayName="swor_left_front">
+					<Entry varId="front_bone" 	 value="true"/>
+
+					<Entry varId="crossbow_pos_x" 	 value="0.75"/>
+					<Entry varId="crossbow_pos_y" 	 value="0.10"/>
+					<Entry varId="crossbow_pos_z" 	 value="-0.28"/>
+					<Entry varId="crossbow_roll"	 value="-120"/>
+					<Entry varId="crossbow_pitch" 	 value="180"/>
+					<Entry varId="crossbow_yaw" 	 value="-90"/>
+
+					<Entry varId="torch_pos_x" 	 value="0.65"/>
+					<Entry varId="torch_pos_y" 	 value="0.25"/>
+					<Entry varId="torch_pos_z" 	 value="-0.37"/>
+					<Entry varId="torch_roll"	 value="110"/>
+					<Entry varId="torch_pitch" 	 value="180"/>
+					<Entry varId="torch_yaw" 	 value="-90"/>
+				</Preset>
+
+				<Preset id="1" displayName="swor_left_middle">
+					<Entry varId="front_bone" 	 value="false"/>
+
+					<Entry varId="crossbow_pos_x" 	 value="0.45"/>
+					<Entry varId="crossbow_pos_y" 	 value="0.10"/>
+					<Entry varId="crossbow_pos_z" 	 value="-0.33"/>
+					<Entry varId="crossbow_roll"	 value="-120"/>
+					<Entry varId="crossbow_pitch" 	 value="180"/>
+					<Entry varId="crossbow_yaw" 	 value="-90"/>
+
+					<Entry varId="torch_pos_x" 	 value="0.35"/>
+					<Entry varId="torch_pos_y" 	 value="0.20"/>
+					<Entry varId="torch_pos_z" 	 value="-0.37"/>
+					<Entry varId="torch_roll"	 value="110"/>
+					<Entry varId="torch_pitch" 	 value="180"/>
+					<Entry varId="torch_yaw" 	 value="-90"/>
+				</Preset>
+
+				<Preset id="2" displayName="swor_left_rear">
+					<Entry varId="front_bone" 	 value="false"/>
+
+					<Entry varId="crossbow_pos_x" 	 value="-0.1"/>
+					<Entry varId="crossbow_pos_y" 	 value="0.10"/>
+					<Entry varId="crossbow_pos_z" 	 value="-0.35"/>
+					<Entry varId="crossbow_roll"	 value="-120"/>
+					<Entry varId="crossbow_pitch" 	 value="180"/>
+					<Entry varId="crossbow_yaw" 	 value="-90"/>
+
+					<Entry varId="torch_pos_x" 	 value="0"/>
+					<Entry varId="torch_pos_y" 	 value="0.25"/>
+					<Entry varId="torch_pos_z" 	 value="-0.43"/>
+					<Entry varId="torch_roll"	 value="110"/>
+					<Entry varId="torch_pitch" 	 value="180"/>
+					<Entry varId="torch_yaw" 	 value="-90"/>
+				</Preset>
+				
+			</PresetsArray>
+		<VisibleVars>
+
+			<Var id="front_bone" 		displayName="swor_front_bone"				displayType="TOGGLE"					tags="customNames;customDisplayName"/>
+
+			<Var id="crossbow_pos_x" displayName="Crossbow_pos_x" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="crossbow_pos_y" displayName="Crossbow_pos_y" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="crossbow_pos_z" displayName="Crossbow_pos_z" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="crossbow_roll"  displayName="Crossbow_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="crossbow_pitch" displayName="Crossbow_pitch" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="crossbow_yaw" 	 displayName="Crossbow_yaw" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+
+			<Var id="torch_pos_x" displayName="torch_pos_x" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="torch_pos_y" displayName="torch_pos_y" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="torch_pos_z" displayName="torch_pos_z" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="torch_roll"  displayName="torch_roll" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="torch_pitch" displayName="torch_pitch" 	displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="torch_yaw"   displayName="torch_yaw" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+
+			<Var id="reset_mod_ctor" 	displayName="swor_reset_mod" 				displayType="TOGGLE" 					tags="customNames;customDisplayName"/>
+			<!--
+			<Var id="steel_scab_pos_x"  displayName="swor_steel_scab_pos_x" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_y"  displayName="swor_steel_scab_pos_y" 		displayType="SLIDER;-2.000;2.000;4000"	tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_z" 	displayName="swor_steel_scab_pos_z" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_roll" 	displayName="swor_steel_scab_roll" 			displayType="SLIDER;-360;360;7200"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pitch" 	displayName="swor_steel_scab_pitch" 		displayType="SLIDER;-360;360;7200"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_yaw" 	displayName="swor_steel_scab_yaw" 			displayType="SLIDER;-360;360;7200"		tags="customNames;customDisplayName"/>
+			-->
+		</VisibleVars>
+	</Group>
+</UserConfig>

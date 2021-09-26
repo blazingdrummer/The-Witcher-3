@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="swordsonroach" displayName="Mods.swordsonroach.swordsonroach_main">
+		<PresetsArray>
+				<Preset id="0" displayName="swor_zero">
+					<Entry varId="steel_pos_x"	     value="0"/>
+					<Entry varId="steel_pos_y" 	     value="0"/>
+					<Entry varId="steel_pos_z" 	     value="0"/>
+					<Entry varId="steel_roll"	     value="0"/>
+					<Entry varId="steel_pitch" 	     value="0"/>
+					<Entry varId="steel_yaw" 	     value="0"/>
+					
+					<Entry varId="silver_pos_x"	     value="0"/>
+					<Entry varId="silver_pos_y"      value="0"/>
+					<Entry varId="silver_pos_z"      value="0"/>
+					<Entry varId="silver_roll"	     value="0"/>
+					<Entry varId="silver_pitch"      value="0"/>
+					<Entry varId="silver_yaw" 	     value="0"/>
+				</Preset>
+				<Preset id="1" displayName="swor_left_front">
+					<Entry varId="steel_pos_x"	     value="-0.17"/>
+					<Entry varId="steel_pos_y" 	     value="0.82"/>
+					<Entry varId="steel_pos_z" 	     value="0.4"/>
+					<Entry varId="steel_roll"	     value="-1"/>
+					<Entry varId="steel_pitch" 	     value="-62"/>
+					<Entry varId="steel_yaw" 	     value="3"/>
+					<Entry varId="front_bone"        value="true"/>
+					
+					<Entry varId="silver_pos_x"	     value="-0.2"/>
+					<Entry varId="silver_pos_y"      value="0.70"/>
+					<Entry varId="silver_pos_z"      value="0.4"/>
+					<Entry varId="silver_roll"	     value="0"/>
+					<Entry varId="silver_pitch"      value="-62"/>
+					<Entry varId="silver_yaw" 	     value="0"/>
+				</Preset>
+				<Preset id="2" displayName="swor_right_front">
+					<Entry varId="steel_pos_x"	     value="0.25"/>
+					<Entry varId="steel_pos_y" 	     value="0.82"/>
+					<Entry varId="steel_pos_z" 	     value="0.4"/>
+					<Entry varId="steel_roll"	     value="-1"/>
+					<Entry varId="steel_pitch" 	     value="-110"/>
+					<Entry varId="steel_yaw" 	     value="3"/>
+					<Entry varId="front_bone"        value="true"/>
+					
+					<Entry varId="silver_pos_x"	     value="0.3"/>
+					<Entry varId="silver_pos_y"      value="0.70"/>
+					<Entry varId="silver_pos_z"      value="0.4"/>
+					<Entry varId="silver_roll"	     value="0"/>
+					<Entry varId="silver_pitch"      value="-105"/>
+					<Entry varId="silver_yaw" 	     value="0"/>
+				</Preset>
+				<Preset id="3" displayName="swor_both_behind">
+					<Entry varId="steel_pos_x"	     value="-0.48"/>
+					<Entry varId="steel_pos_y" 	     value="-0.02"/>
+					<Entry varId="steel_pos_z" 	     value="0.32"/>
+					<Entry varId="steel_roll"	     value="0"/>
+					<Entry varId="steel_pitch" 	     value="180"/>
+					<Entry varId="steel_yaw" 	     value="0"/>
+					<Entry varId="front_bone"        value="false"/>
+					
+					<Entry varId="silver_pos_x"	     value="0.35"/>
+					<Entry varId="silver_pos_y"      value="0.05"/>
+					<Entry varId="silver_pos_z"      value="0.29"/>
+					<Entry varId="silver_roll"	     value="0"/>
+					<Entry varId="silver_pitch"      value="0"/>
+					<Entry varId="silver_yaw" 	     value="0"/>
+				</Preset>
+				<Preset id="4" displayName="swor_middle_left">
+					<Entry varId="steel_pos_x"	     value="-0.39"/>
+					<Entry varId="steel_pos_y" 	     value="0.06"/>
+					<Entry varId="steel_pos_z" 	     value="0.27"/>
+					<Entry varId="steel_roll"	     value="0"/>
+					<Entry varId="steel_pitch" 	     value="-85"/>
+					<Entry varId="steel_yaw" 	     value="0"/>
+					<Entry varId="front_bone"        value="true"/>
+					
+					<Entry varId="silver_pos_x"	     value="-0.34"/>
+					<Entry varId="silver_pos_y"      value="-0.01"/>
+					<Entry varId="silver_pos_z"      value="0.32"/>
+					<Entry varId="silver_roll"	     value="0"/>
+					<Entry varId="silver_pitch"      value="-85"/>
+					<Entry varId="silver_yaw" 	     value="0"/>
+				</Preset>
+				<Preset id="5" displayName="swor_middle_right">
+					<Entry varId="steel_pos_x"	     value="0.42"/>
+					<Entry varId="steel_pos_y" 	     value="0.00"/>
+					<Entry varId="steel_pos_z" 	     value="0.23"/>
+					<Entry varId="steel_roll"	     value="10"/>
+					<Entry varId="steel_pitch" 	     value="-85"/>
+					<Entry varId="steel_yaw" 	     value="0"/>
+					<Entry varId="front_bone"        value="true"/>
+					
+					<Entry varId="silver_pos_x"	     value="0.37"/>
+					<Entry varId="silver_pos_y"      value="-0.1"/>
+					<Entry varId="silver_pos_z"      value="0.27"/>
+					<Entry varId="silver_roll"	     value="10"/>
+					<Entry varId="silver_pitch"      value="-85"/>
+					<Entry varId="silver_yaw" 	     value="0"/>
+				</Preset>
+				<Preset id="6" displayName="swor_middle_per_one">
+					<Entry varId="steel_pos_x"	     value="0.40"/>
+					<Entry varId="steel_pos_y" 	     value="-0.2"/>
+					<Entry varId="steel_pos_z" 	     value="0.25"/>
+					<Entry varId="steel_roll"	     value="40"/>
+					<Entry varId="steel_pitch" 	     value="-80"/>
+					<Entry varId="steel_yaw" 	     value="0"/>
+					<Entry varId="front_bone"        value="true"/>
+					
+					<Entry varId="silver_pos_x"	     value="-0.36"/>
+					<Entry varId="silver_pos_y"      value="-0.18"/>
+					<Entry varId="silver_pos_z"      value="0.30"/>
+					<Entry varId="silver_roll"	     value="40"/>
+					<Entry varId="silver_pitch"      value="-88"/>
+					<Entry varId="silver_yaw" 	     value="-5"/>
+				</Preset>
+				<Preset id="7" displayName="swor_killing_monsters">
+					<Entry varId="steel_pos_x"	     value="-0.38"/>
+					<Entry varId="steel_pos_y" 	     value="0.54"/>
+					<Entry varId="steel_pos_z" 	     value="0.10"/>
+					<Entry varId="steel_roll"	     value="-66"/>
+					<Entry varId="steel_pitch" 	     value="-85"/>
+					<Entry varId="steel_yaw" 	     value="-5"/>
+					<Entry varId="front_bone"        value="true"/>
+					
+					<Entry varId="silver_pos_x"	     value="-0.36"/>
+					<Entry varId="silver_pos_y"      value="0.53"/>
+					<Entry varId="silver_pos_z"      value="0"/>
+					<Entry varId="silver_roll"	     value="-75"/>
+					<Entry varId="silver_pitch"      value="-85"/>
+					<Entry varId="silver_yaw" 	     value="-4"/>
+				</Preset>
+			</PresetsArray>
+		<VisibleVars>
+			<Var id="enable_changes" 	displayName="swor_enable_changes" 			displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="front_bone" 		displayName="swor_front_bone"				displayType="TOGGLE"					tags="customNames;customDisplayName"/>
+			<Var id="steel_pos_x" 		displayName="swor_steel_pos_x" 				displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_pos_y" 		displayName="swor_steel_pos_y" 				displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_pos_z" 		displayName="swor_steel_pos_z" 				displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_roll" 		displayName="swor_steel_roll" 				displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="steel_pitch" 		displayName="swor_steel_pitch" 				displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="steel_yaw" 		displayName="swor_steel_yaw" 				displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+			<Var id="silver_pos_x" 		displayName="swor_silver_pos_x" 			displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="silver_pos_y" 		displayName="swor_silver_pos_y" 			displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="silver_pos_z" 		displayName="swor_silver_pos_z" 			displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="silver_roll" 		displayName="swor_silver_pos_roll" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="silver_pitch" 		displayName="swor_silver_pos_pitch" 		displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			<Var id="silver_yaw" 		displayName="swor_silver_pos_yaw" 			displayType="SLIDER;-360;360;720"		tags="customNames;customDisplayName"/>
+			
+			<Var id="play_anim" 		displayName="swor_play_anim" 				displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="reset_mod_swor" 	displayName="swor_reset_mod" 				displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			<Var id="disable_mod" 		displayName="swor_disable_mod" 				displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			
+			<!--
+			<Var id="steel_scab_pos_x"  displayName="swor_steel_scab_pos_x" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_y"  displayName="swor_steel_scab_pos_y" 		displayType="SLIDER;-2.000;2.000;4000"	tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_z" 	displayName="swor_steel_scab_pos_z" 		displayType="SLIDER;-2.00;2.00;400"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_roll" 	displayName="swor_steel_scab_roll" 			displayType="SLIDER;-360;360;7200"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pitch" 	displayName="swor_steel_scab_pitch" 		displayType="SLIDER;-360;360;7200"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_yaw" 	displayName="swor_steel_scab_yaw" 			displayType="SLIDER;-360;360;7200"		tags="customNames;customDisplayName"/>
+			-->
+		</VisibleVars>
+	</Group>
+	
+	<Group id="swordsonroach_scabbards" displayName="Mods.swordsonroach.swordsonroach_scabbards">
+		
+		<PresetsArray>
+				<Preset id="0" displayName="swor_zero">
+					<Entry varId="steel_scab_pos_x_swor"	     value="0"/>
+					<Entry varId="steel_scab_pos_y_swor" 	     value="0"/>
+					<Entry varId="steel_scab_pos_z_swor" 	     value="0"/>
+					<Entry varId="steel_scab_roll_swor"	     value="0"/>
+					<Entry varId="steel_scab_pitch_swor" 	     value="0"/>
+					<Entry varId="steel_scab_yaw_swor" 	     value="0"/>
+					
+					<Entry varId="silver_scab_pos_x_swor"	     value="0"/>
+					<Entry varId="silver_scab_pos_y_swor"      value="0"/>
+					<Entry varId="silver_scab_pos_z_swor"      value="0"/>
+					<Entry varId="silver_scab_roll_swor"	     value="0"/>
+					<Entry varId="silver_scab_pitch_swor"      value="0"/>
+					<Entry varId="silver_scab_yaw_swor" 	     value="0"/>
+				</Preset>
+		</PresetsArray>
+		
+		<VisibleVars>
+			<Var id="enable_changes_scabbards" 		displayName="swor_enable_changes" 			displayType="TOGGLE" 					tags="customNames;customDisplayName"/> 
+			
+			<Var id="steel_scab_pos_z_swor" 		displayName="swor_steel_pos_x" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_x_swor" 		displayName="swor_steel_pos_y" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pos_y_swor" 		displayName="swor_steel_pos_z" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_roll_swor" 			displayName="swor_steel_roll" 			displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_pitch_swor" 		displayName="swor_steel_pitch" 			displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="steel_scab_yaw_swor" 			displayName="swor_steel_yaw" 			displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			
+			<Var id="silver_scab_pos_z_swor" 		displayName="swor_silver_pos_x" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_pos_x_swor" 		displayName="swor_silver_pos_y" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_pos_y_swor" 		displayName="swor_silver_pos_z" 			displayType="SLIDER;-1.00;1.00;2000"		tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_roll_swor" 		displayName="swor_silver_pos_roll" 		displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_pitch_swor" 		displayName="swor_silver_pos_pitch" 		displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+			<Var id="silver_scab_yaw_swor" 			displayName="swor_silver_pos_yaw" 		displayType="SLIDER;-360;360;7200"			tags="customNames;customDisplayName"/>
+		</VisibleVars>
+	</Group>
+	
+</UserConfig>
+
+

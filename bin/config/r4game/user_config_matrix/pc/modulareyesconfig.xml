@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="modME" displayName="Mods.modME">
+		<PresetsArray>
+			<Preset id="0" displayName="Custom" >
+				<Entry varId="modME_ATtoxic_id"					value="0"	/>
+				<Entry varId="modME_ATdark_id"					value="1"	/>
+				<Entry varId="modME_ATtoxanddark_id"			value="0"	/>
+				<Entry varId="modME_ATcat_id"					value="1"	/>
+				<Entry varId="modME_ATcombatday_id"				value="2"	/>
+				<Entry varId="modME_ATwitchersenses_id"			value="1"	/>
+				<Entry varId="modME_ATbuttontriggerblack_id"	value="0"	/>
+				<Entry varId="modME_ATbuttontriggeralt_id"		value="0"	/>
+				<Entry varId="modME_ATstatic_id"				value="2"	/>
+				<Entry varId="modME_toxicpercent_id"			value="40"	/>
+				<Entry varId="modME_Priority_id"				value="0"	/>
+			</Preset>
+		</PresetsArray>
+
+		<VisibleVars>
+			<Var id="modME_ATtoxic_id" displayName="modME_ATtoxic" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATtoxic_black">
+						<Entry varId="modME_ATtoxic_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATtoxic_alt">
+						<Entry varId="modME_ATtoxic_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATtoxic_off">
+						<Entry varId="modME_ATtoxic_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="modME_ATdark_id" displayName="modME_ATdark" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATdark_black">
+						<Entry varId="modME_ATdark_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATdark_alt">
+						<Entry varId="modME_ATdark_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATdark_off">
+						<Entry varId="modME_ATdark_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="modME_ATtoxanddark_id" displayName="modME_ATtoxanddark" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATtoxanddark_black">
+						<Entry varId="modME_ATtoxanddark_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATtoxanddark_alt">
+						<Entry varId="modME_ATtoxanddark_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATtoxanddark_off">
+						<Entry varId="modME_ATtoxanddark_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="modME_ATcat_id" displayName="modME_ATcat" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATcat_black">
+						<Entry varId="modME_ATcat_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATcat_alt">
+						<Entry varId="modME_ATcat_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATcat_off">
+						<Entry varId="modME_ATcat_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>	
+			<Var id="modME_ATcombatday_id" displayName="modME_ATcombatday" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATcombatday_black">
+						<Entry varId="modME_ATcombatday_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATcombatday_alt">
+						<Entry varId="modME_ATcombatday_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATcombatday_off">
+						<Entry varId="modME_ATcombatday_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>		
+			<Var id="modME_ATcombatdark_id" displayName="modME_ATcombatdark" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATcombatdark_black">
+						<Entry varId="modME_ATcombatdark_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATcombatdark_alt">
+						<Entry varId="modME_ATcombatdark_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATcombatdark_off">
+						<Entry varId="modME_ATcombatdark_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>	
+			<Var id="modME_ATwitchersenses_id" displayName="modME_ATwitchersenses" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATwitchersenses_black">
+						<Entry varId="modME_ATwitchersenses_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATwitchersenses_alt">
+						<Entry varId="modME_ATwitchersenses_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATwitchersenses_off">
+						<Entry varId="modME_ATwitchersenses_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>	
+			<Var id="modME_ATbuttontriggerblack_id" displayName="modME_ATbuttontriggerblack" displayType="TOGGLE"/>
+			<Var id="modME_ATbuttontriggeralt_id" displayName="modME_ATbuttontriggeralt" displayType="TOGGLE"/>
+			<Var id="modME_ATstatic_id" displayName="modME_ATstatic" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="modME_ATstatic_black">
+						<Entry varId="modME_ATstatic_id" value="0"/>
+					</Option>
+					<Option id="1" displayName="modME_ATstatic_alt">
+						<Entry varId="modME_ATstatic_id" value="1"/>
+					</Option>
+					<Option id="2" displayName="modME_ATstatic_off">
+						<Entry varId="modME_ATstatic_id" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>	
+			<Var id="modME_toxicpercent_id" displayName="modME_toxicpercent" displayType="SLIDER;0;100;100"/>
+			<Var id="modME_Priority_id" displayName="modME_Priority" displayType="TOGGLE"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

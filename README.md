@@ -18,17 +18,19 @@ Tasks:
 	- the code to edit is mentioned on the W3EE page, Lazarus uses a 1:4 ratio
 	- one hour should be about a day's work?
 	- tweak meditation acceleration accordingly
-
+- [ ] create a comprehensive guide explaining behavior of all included mods
+  - made up terms to explain:
+    - Anarchy Tax (when guards knock you out)
+  - [X] download guide from Reddit
+- [ ] add slo-mo horse combat from Lazarus
+- [ ] add unstoppable Roach from Lazarus
 menu edits
 - [ ] clean up menu strings
   - potentially edit tutorial messages to better explain mechanics
   - clarify what "Witcher 2 Save Sim" means
   - [X] remove menu options for new game besides "Fresh Start"
+    - shouldn't need to edit other DLC popups since this should cover it
 - [ ] add custom presets for easy setup
   - could remove existing defaults in favor of my own
 - [ ] clean up default user settings
-  - e.g. the DLC popups are cleared by default, tutorials might be as well
   - enable DLC Gwent Cards
-- [ ] create a comprehensive guide explaining behavior of all included mods
-  - made up terms to explain:
-    - Anarchy Tax (when guards knock you out)
